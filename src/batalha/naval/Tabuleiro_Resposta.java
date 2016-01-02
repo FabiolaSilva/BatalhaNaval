@@ -179,9 +179,10 @@ public class Tabuleiro_Resposta extends javax.swing.JFrame {
 
     private void jButtonSairTabActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSairTabActionPerformed
         // TODO add your handling code here:
+        close();
         BemVindo s = new BemVindo();
         s.setVisible(true);
-        close();
+        
     }//GEN-LAST:event_jButtonSairTabActionPerformed
 
     private void jButtonResponderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonResponderActionPerformed
