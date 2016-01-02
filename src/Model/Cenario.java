@@ -64,7 +64,7 @@ public class Cenario {
                arraycoord1[0] = x1;
                arraycoord1[1] = y1; 
             } while (checkCoord(arraycoord1, null, null, null) //verifica se coordenadas já existem noutros navios
-                    && checkLimites(arraycoord1, null, null, null));//verifica se coordenadas dos navios estão dentro dos limites
+                    || checkLimites(arraycoord1, null, null, null));//verifica se coordenadas dos navios estão dentro dos limites
             
             arrayTemp.add(arraycoord1);// adiciona par de coordenadas à lista de coordenadas de um navio
         }
@@ -87,7 +87,7 @@ public class Cenario {
                arraycoord2[0] = x2;
                arraycoord2[1] = y2;
             } while (checkCoord(arraycoord1, arraycoord2, null, null) //verifica se coordenadas já existem noutros navios
-                    && checkLimites(arraycoord1, arraycoord2, null, null));//verifica se coordenadas dos navios estão dentro dos limites
+                    || checkLimites(arraycoord1, arraycoord2, null, null));//verifica se coordenadas dos navios estão dentro dos limites
             
             arrayTemp.add(arraycoord1);// adiciona par de coordenadas à lista de coordenadas de um navio
             arrayTemp.add(arraycoord2);
@@ -124,7 +124,7 @@ public class Cenario {
                arraycoord4[0] = x4;
                arraycoord4[1] = y4;
             } while (checkCoord(arraycoord1, arraycoord2, arraycoord3, arraycoord4) //verifica se coordenadas já existem noutros navios
-                    && checkLimites(arraycoord1, arraycoord2, arraycoord3, arraycoord4));//verifica se coordenadas dos navios estão dentro dos limites
+                    || checkLimites(arraycoord1, arraycoord2, arraycoord3, arraycoord4));//verifica se coordenadas dos navios estão dentro dos limites
             
             arrayTemp.add(arraycoord1);// adiciona par de coordenadas à lista de coordenadas de um navio
             arrayTemp.add(arraycoord2);
@@ -156,7 +156,7 @@ public class Cenario {
                arraycoord3[0] = x3;
                arraycoord3[1] = y3;
             } while (checkCoord(arraycoord1, arraycoord2, arraycoord3, null) //verifica se coordenadas já existem noutros navios
-                    && checkLimites(arraycoord1, arraycoord2, arraycoord3, null));//verifica se coordenadas dos navios estão dentro dos limites
+                    || checkLimites(arraycoord1, arraycoord2, arraycoord3, null));//verifica se coordenadas dos navios estão dentro dos limites
             
             arrayTemp.add(arraycoord1);// adiciona par de coordenadas à lista de coordenadas de um navio
             arrayTemp.add(arraycoord2);
@@ -183,7 +183,7 @@ public class Cenario {
                arraycoord4[0] = x4;
                arraycoord4[1] = y4;
             } while (checkCoord(arraycoord1, arraycoord2, arraycoord3, arraycoord4) //verifica se coordenadas já existem noutros navios
-                    && checkLimites(arraycoord1, arraycoord2, arraycoord3, arraycoord4));//verifica se coordenadas dos navios estão dentro dos limites
+                    || checkLimites(arraycoord1, arraycoord2, arraycoord3, arraycoord4));//verifica se coordenadas dos navios estão dentro dos limites
             
             arrayTemp.add(arraycoord1);// adiciona par de coordenadas à lista de coordenadas de um navio
             arrayTemp.add(arraycoord2);
