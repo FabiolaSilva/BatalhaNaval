@@ -6,7 +6,7 @@
 package bnaval;
 
 /**
- *
+ * teste
  * @author Cat
  */
 public class BNaval {
