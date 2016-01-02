@@ -20,7 +20,8 @@ public class BatalhaNaval {
     public static void main(String[] args) {
         Jogador jogador = new Jogador();
         Cenario cenario = new Cenario(jogador);
-        // falta chamar a interface
+        BemVindo bemvindo = new BemVindo();
+        bemvindo.setVisible(true);
     }
     
 }
