@@ -5,6 +5,7 @@
  */
 package batalha.naval;
 
+import Model.Jogador;
 import java.awt.Toolkit;
 import java.awt.event.WindowEvent;
 
@@ -14,12 +15,21 @@ import java.awt.event.WindowEvent;
  * @author Cat
  */
 public class Tabuleiro_Resposta extends javax.swing.JFrame {
+    
+    Jogador jogador = new Jogador();
+    int nivel = 0;
 
     /**
      * Creates new form Tabuleiro
      */
-    public Tabuleiro_Resposta() {
+    public Tabuleiro_Resposta(Jogador jogador, int nivel) {
+        this.nivel = nivel;
+        this.jogador = jogador;
         initComponents();
+    }
+
+    private Tabuleiro_Resposta() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
      public void close(){
@@ -188,7 +198,7 @@ public class Tabuleiro_Resposta extends javax.swing.JFrame {
     private void jButtonResponderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonResponderActionPerformed
         // TODO add your handling code here:
         close();
-        Tabuleiro j = new Tabuleiro();
+        Tabuleiro j = new Tabuleiro(jogador, nivel);
         j.setVisible(true);
     }//GEN-LAST:event_jButtonResponderActionPerformed
 

@@ -18,8 +18,7 @@ public class BatalhaNaval {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Jogador jogador = new Jogador();
-        Cenario cenario = new Cenario(jogador);
+        
         BemVindo bemvindo = new BemVindo();
         bemvindo.setVisible(true);
     }

@@ -58,8 +58,8 @@ public class Cenario {
         orientacao = true;
         if(tipo.equals("sub")){ //lógica para submarino
             do {      // repete a lógica caso as coordenadas coincidam com navios já existentes          
-               x1 = randInt(0,19);
-               y1 = randInt(0,19);
+               x1 = randInt(1,20);
+               y1 = randInt(1,20);
             
                arraycoord1[0] = x1;
                arraycoord1[1] = y1; 
@@ -71,8 +71,8 @@ public class Cenario {
         if(tipo.equals("cruz")){ // lógica para cruzador
             orientacao = gerarOrient();
             do{         // repete a lógica caso as coordenadas coincidam com navios já existentes
-               x1 = randInt(0,19);
-               y1 = randInt(0,19);
+               x1 = randInt(1,20);
+               y1 = randInt(1,20);
             
                arraycoord1[0] = x1;
                arraycoord1[1] = y1;
@@ -96,8 +96,8 @@ public class Cenario {
         if(tipo.equals("pAvioes")){ // lógica para porta-aviões
             orientacao = gerarOrient();
             do{         // repete a lógica caso as coordenadas coincidam com navios já existentes
-               x1 = randInt(0,19);
-               y1 = randInt(0,19);
+               x1 = randInt(1,20);
+               y1 = randInt(1,20);
             
                arraycoord1[0] = x1;
                arraycoord1[1] = y1;
@@ -134,8 +134,8 @@ public class Cenario {
         if(tipo.equals("paquete")){ // lógica para paquete
             orientacao = gerarOrient();
             do{         // repete a lógica caso as coordenadas coincidam com navios já existentes
-               x1 = randInt(0,19);
-               y1 = randInt(0,19);
+               x1 = randInt(1,20);
+               y1 = randInt(1,20);
             
                arraycoord1[0] = x1;
                arraycoord1[1] = y1;
@@ -164,8 +164,8 @@ public class Cenario {
         }
         if(tipo.equals("pContentores")){ // lógica para porta-contentores
             do{         // repete a lógica caso as coordenadas coincidam com navios já existentes
-               x1 = randInt(0,19);
-               y1 = randInt(0,19);
+               x1 = randInt(1,20);
+               y1 = randInt(1,20);
                
                x2 = x1 + 1;
                y2 = y1;
@@ -269,22 +269,22 @@ public class Cenario {
      */
     private boolean checkLimites(int[] ar1, int[] ar2, int[] ar3, int[] ar4) {
         if(ar4 != null){
-            if ((ar4[0] < 0 || ar4[0] > 19) || (ar4[1] < 0 || ar4[1] > 19)){
+            if ((ar4[0] < 1 || ar4[0] > 20) || (ar4[1] < 1 || ar4[1] > 20)){
                 return true;
             }
         }
         if(ar3 != null){
-            if ((ar3[0] < 0 || ar3[0] > 19) || (ar3[1] < 0 || ar3[1] > 19)){
+            if ((ar3[0] < 1 || ar3[0] > 20) || (ar3[1] < 1 || ar3[1] > 20)){
                 return true;
             }
         }
         if(ar2 != null){
-            if ((ar2[0] < 0 || ar2[0] > 19) || (ar2[1] < 0 || ar2[1] > 19)){
+            if ((ar2[0] < 1 || ar2[0] > 20) || (ar2[1] < 1 || ar2[1] > 20)){
                 return true;
             }
         }
         if(ar1 != null){
-            if ((ar1[0] < 0 || ar1[0] > 19) || (ar1[1] < 0 || ar1[1] > 19)){
+            if ((ar1[0] < 1 || ar1[0] > 20) || (ar1[1] < 1 || ar1[1] > 20)){
                 return true;
             }
         }
@@ -524,4 +524,14 @@ public class Cenario {
             darBonus(navioColocado);
         }
     }
+
+    public int getNivel() {
+        return nivel;
+    }
+
+    public void setNivel(int nivel) {
+        this.nivel = nivel;
+    }
+    
+    
 }

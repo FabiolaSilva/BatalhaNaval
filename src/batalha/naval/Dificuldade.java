@@ -5,6 +5,7 @@
  */
 package batalha.naval;
 
+import Model.Jogador;
 import java.awt.Toolkit;
 import java.awt.event.WindowEvent;
 import javax.swing.JLabel;
@@ -15,6 +16,7 @@ import javax.swing.JLabel;
  */
 public class Dificuldade extends javax.swing.JFrame {
 
+    Jogador jogador = new Jogador();
     
     /**
      * Creates new form BemVindo
@@ -151,7 +153,7 @@ public class Dificuldade extends javax.swing.JFrame {
         // TODO add your handling code here:
        
         close();
-        Pre_Tabuleiro f = new Pre_Tabuleiro();
+        Pre_Tabuleiro f = new Pre_Tabuleiro(jogador, 1);
         f.setVisible(true);
         
     }//GEN-LAST:event_jButtonFacilActionPerformed
@@ -159,14 +161,14 @@ public class Dificuldade extends javax.swing.JFrame {
     private void jButtonMedioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonMedioActionPerformed
         // TODO add your handling code here:
         close();
-        Pre_Tabuleiro m = new Pre_Tabuleiro();
+        Pre_Tabuleiro m = new Pre_Tabuleiro(jogador, 2);
         m.setVisible(true);
     }//GEN-LAST:event_jButtonMedioActionPerformed
 
     private void jButtonDificilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonDificilActionPerformed
         // TODO add your handling code here:
         close();
-        Pre_Tabuleiro d = new Pre_Tabuleiro();
+        Pre_Tabuleiro d = new Pre_Tabuleiro(jogador, 3);
         d.setVisible(true);
 
     }//GEN-LAST:event_jButtonDificilActionPerformed

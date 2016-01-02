@@ -8,18 +8,33 @@ package batalha.naval;
 import java.awt.Color;
 import java.awt.Toolkit;
 import java.awt.event.WindowEvent;
+import Model.*;
+import javax.swing.JButton;
 
 /**
  *
  * @author Cat
  */
 public class Tabuleiro extends javax.swing.JFrame {
+    
+    Jogador jogador = new Jogador();
+    Cenario cenario = null;
+    int nivel = 0;
 
     /**
      * Creates new form Tabuleiro
      */
-    public Tabuleiro() {
+    public Tabuleiro(Jogador jogador, int nivel) {
+        this.nivel = nivel;
+        this.jogador = jogador;
+        cenario = new Cenario((jogador));
+        cenario.setNivel(nivel);
+        cenario.gerarCenario();
         initComponents();
+    }
+
+    private Tabuleiro() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public void close(){
@@ -487,234 +502,524 @@ public class Tabuleiro extends javax.swing.JFrame {
         jButton1_3.setBackground(new java.awt.Color(0, 153, 153));
         jButton1_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_3.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton1_3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1_3ActionPerformed(evt);
+            }
+        });
 
         jButton1_4.setBackground(new java.awt.Color(0, 153, 153));
         jButton1_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_4.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton1_4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1_4ActionPerformed(evt);
+            }
+        });
 
         jButton1_5.setBackground(new java.awt.Color(0, 153, 153));
         jButton1_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_5.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton1_5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1_5ActionPerformed(evt);
+            }
+        });
 
         jButton1_6.setBackground(new java.awt.Color(0, 153, 153));
         jButton1_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_6.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton1_6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1_6ActionPerformed(evt);
+            }
+        });
 
         jButton1_7.setBackground(new java.awt.Color(0, 153, 153));
         jButton1_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_7.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton1_7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1_7ActionPerformed(evt);
+            }
+        });
 
         jButton1_8.setBackground(new java.awt.Color(0, 153, 153));
         jButton1_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_8.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton1_8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1_8ActionPerformed(evt);
+            }
+        });
 
         jButton1_9.setBackground(new java.awt.Color(0, 153, 153));
         jButton1_9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_9.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton1_9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1_9ActionPerformed(evt);
+            }
+        });
 
         jButton1_10.setBackground(new java.awt.Color(0, 153, 153));
         jButton1_10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_10.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton1_10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1_10ActionPerformed(evt);
+            }
+        });
 
         jButton1_11.setBackground(new java.awt.Color(0, 153, 153));
         jButton1_11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_11.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton1_11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1_11ActionPerformed(evt);
+            }
+        });
 
         jButton1_12.setBackground(new java.awt.Color(0, 153, 153));
         jButton1_12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_12.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton1_12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1_12ActionPerformed(evt);
+            }
+        });
 
         jButton1_13.setBackground(new java.awt.Color(0, 153, 153));
         jButton1_13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_13.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton1_13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1_13ActionPerformed(evt);
+            }
+        });
 
         jButton1_14.setBackground(new java.awt.Color(0, 153, 153));
         jButton1_14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_14.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton1_14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1_14ActionPerformed(evt);
+            }
+        });
 
         jButton1_15.setBackground(new java.awt.Color(0, 153, 153));
         jButton1_15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_15.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton1_15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1_15ActionPerformed(evt);
+            }
+        });
 
         jButton1_16.setBackground(new java.awt.Color(0, 153, 153));
         jButton1_16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_16.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton1_16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1_16ActionPerformed(evt);
+            }
+        });
 
         jButton1_17.setBackground(new java.awt.Color(0, 153, 153));
         jButton1_17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_17.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton1_17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1_17ActionPerformed(evt);
+            }
+        });
 
         jButton1_18.setBackground(new java.awt.Color(0, 153, 153));
         jButton1_18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_18.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton1_18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1_18ActionPerformed(evt);
+            }
+        });
 
         jButton1_19.setBackground(new java.awt.Color(0, 153, 153));
         jButton1_19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_19.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton1_19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1_19ActionPerformed(evt);
+            }
+        });
 
         jButton1_20.setBackground(new java.awt.Color(0, 153, 153));
         jButton1_20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_20.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton1_20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1_20ActionPerformed(evt);
+            }
+        });
 
         jButton2_1.setBackground(new java.awt.Color(0, 153, 153));
         jButton2_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_1.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton2_1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2_1ActionPerformed(evt);
+            }
+        });
 
         jButton2_2.setBackground(new java.awt.Color(0, 153, 153));
         jButton2_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_2.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton2_2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2_2ActionPerformed(evt);
+            }
+        });
 
         jButton2_3.setBackground(new java.awt.Color(0, 153, 153));
         jButton2_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_3.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton2_3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2_3ActionPerformed(evt);
+            }
+        });
 
         jButton2_4.setBackground(new java.awt.Color(0, 153, 153));
         jButton2_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_4.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton2_4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2_4ActionPerformed(evt);
+            }
+        });
 
         jButton2_5.setBackground(new java.awt.Color(0, 153, 153));
         jButton2_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_5.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton2_5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2_5ActionPerformed(evt);
+            }
+        });
 
         jButton2_6.setBackground(new java.awt.Color(0, 153, 153));
         jButton2_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_6.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton2_6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2_6ActionPerformed(evt);
+            }
+        });
 
         jButton2_7.setBackground(new java.awt.Color(0, 153, 153));
         jButton2_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_7.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton2_7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2_7ActionPerformed(evt);
+            }
+        });
 
         jButton2_8.setBackground(new java.awt.Color(0, 153, 153));
         jButton2_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_8.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton2_8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2_8ActionPerformed(evt);
+            }
+        });
 
         jButton2_9.setBackground(new java.awt.Color(0, 153, 153));
         jButton2_9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_9.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton2_9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2_9ActionPerformed(evt);
+            }
+        });
 
         jButton2_10.setBackground(new java.awt.Color(0, 153, 153));
         jButton2_10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_10.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton2_10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2_10ActionPerformed(evt);
+            }
+        });
 
         jButton2_11.setBackground(new java.awt.Color(0, 153, 153));
         jButton2_11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_11.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton2_11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2_11ActionPerformed(evt);
+            }
+        });
 
         jButton2_12.setBackground(new java.awt.Color(0, 153, 153));
         jButton2_12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_12.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton2_12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2_12ActionPerformed(evt);
+            }
+        });
 
         jButton2_13.setBackground(new java.awt.Color(0, 153, 153));
         jButton2_13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_13.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton2_13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2_13ActionPerformed(evt);
+            }
+        });
 
         jButton2_14.setBackground(new java.awt.Color(0, 153, 153));
         jButton2_14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_14.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton2_14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2_14ActionPerformed(evt);
+            }
+        });
 
         jButton2_15.setBackground(new java.awt.Color(0, 153, 153));
         jButton2_15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_15.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton2_15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2_15ActionPerformed(evt);
+            }
+        });
 
         jButton2_16.setBackground(new java.awt.Color(0, 153, 153));
         jButton2_16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_16.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton2_16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2_16ActionPerformed(evt);
+            }
+        });
 
         jButton2_17.setBackground(new java.awt.Color(0, 153, 153));
         jButton2_17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_17.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton2_17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2_17ActionPerformed(evt);
+            }
+        });
 
         jButton2_18.setBackground(new java.awt.Color(0, 153, 153));
         jButton2_18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_18.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton2_18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2_18ActionPerformed(evt);
+            }
+        });
 
         jButton2_19.setBackground(new java.awt.Color(0, 153, 153));
         jButton2_19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_19.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton2_19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2_19ActionPerformed(evt);
+            }
+        });
 
         jButton2_20.setBackground(new java.awt.Color(0, 153, 153));
         jButton2_20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_20.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton2_20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2_20ActionPerformed(evt);
+            }
+        });
 
         jButton3_1.setBackground(new java.awt.Color(0, 153, 153));
         jButton3_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_1.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton3_1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3_1ActionPerformed(evt);
+            }
+        });
 
         jButton3_2.setBackground(new java.awt.Color(0, 153, 153));
         jButton3_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_2.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton3_2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3_2ActionPerformed(evt);
+            }
+        });
 
         jButton3_3.setBackground(new java.awt.Color(0, 153, 153));
         jButton3_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_3.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton3_3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3_3ActionPerformed(evt);
+            }
+        });
 
         jButton3_4.setBackground(new java.awt.Color(0, 153, 153));
         jButton3_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_4.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton3_4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3_4ActionPerformed(evt);
+            }
+        });
 
         jButton3_5.setBackground(new java.awt.Color(0, 153, 153));
         jButton3_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_5.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton3_5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3_5ActionPerformed(evt);
+            }
+        });
 
         jButton3_6.setBackground(new java.awt.Color(0, 153, 153));
         jButton3_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_6.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton3_6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3_6ActionPerformed(evt);
+            }
+        });
 
         jButton3_7.setBackground(new java.awt.Color(0, 153, 153));
         jButton3_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_7.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton3_7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3_7ActionPerformed(evt);
+            }
+        });
 
         jButton3_8.setBackground(new java.awt.Color(0, 153, 153));
         jButton3_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_8.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton3_8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3_8ActionPerformed(evt);
+            }
+        });
 
         jButton3_9.setBackground(new java.awt.Color(0, 153, 153));
         jButton3_9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_9.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton3_9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3_9ActionPerformed(evt);
+            }
+        });
 
         jButton3_10.setBackground(new java.awt.Color(0, 153, 153));
         jButton3_10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_10.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton3_10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3_10ActionPerformed(evt);
+            }
+        });
 
         jButton3_11.setBackground(new java.awt.Color(0, 153, 153));
         jButton3_11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_11.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton3_11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3_11ActionPerformed(evt);
+            }
+        });
 
         jButton3_12.setBackground(new java.awt.Color(0, 153, 153));
         jButton3_12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_12.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton3_12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3_12ActionPerformed(evt);
+            }
+        });
 
         jButton3_13.setBackground(new java.awt.Color(0, 153, 153));
         jButton3_13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_13.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton3_13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3_13ActionPerformed(evt);
+            }
+        });
 
         jButton3_14.setBackground(new java.awt.Color(0, 153, 153));
         jButton3_14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_14.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton3_14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3_14ActionPerformed(evt);
+            }
+        });
 
         jButton3_15.setBackground(new java.awt.Color(0, 153, 153));
         jButton3_15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_15.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton3_15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3_15ActionPerformed(evt);
+            }
+        });
 
         jButton3_16.setBackground(new java.awt.Color(0, 153, 153));
         jButton3_16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_16.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton3_16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3_16ActionPerformed(evt);
+            }
+        });
 
         jButton3_17.setBackground(new java.awt.Color(0, 153, 153));
         jButton3_17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_17.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton3_17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3_17ActionPerformed(evt);
+            }
+        });
 
         jButton3_18.setBackground(new java.awt.Color(0, 153, 153));
         jButton3_18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_18.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton3_18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3_18ActionPerformed(evt);
+            }
+        });
 
         jButton3_19.setBackground(new java.awt.Color(0, 153, 153));
         jButton3_19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_19.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton3_19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3_19ActionPerformed(evt);
+            }
+        });
 
         jButton3_20.setBackground(new java.awt.Color(0, 153, 153));
         jButton3_20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_20.setMargin(new java.awt.Insets(2, 10, 2, 10));
+        jButton3_20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3_20ActionPerformed(evt);
+            }
+        });
 
         jButton4_1.setBackground(new java.awt.Color(0, 153, 153));
         jButton4_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -2224,7 +2529,7 @@ public class Tabuleiro extends javax.swing.JFrame {
                     .addComponent(jLabelPontos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabelJogador1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabelDif, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabelTirosRest, javax.swing.GroupLayout.DEFAULT_SIZE, 171, Short.MAX_VALUE)
+                    .addComponent(jLabelTirosRest, javax.swing.GroupLayout.PREFERRED_SIZE, 171, Short.MAX_VALUE)
                     .addComponent(jLabelNumTiros, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -3567,7 +3872,8 @@ public class Tabuleiro extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_2ActionPerformed
-        // TODO add your handling code here:
+        metodoBotao(1,2, jButton1_2);
+        
     }//GEN-LAST:event_jButton1_2ActionPerformed
 
     private void jButtonSairTabActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSairTabActionPerformed
@@ -3578,10 +3884,241 @@ public class Tabuleiro extends javax.swing.JFrame {
     }//GEN-LAST:event_jButtonSairTabActionPerformed
 
     private void jButton1_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_1ActionPerformed
-        // TODO add your handling code here:
-        jButton1_1.setBackground(Color.red);
+         metodoBotao(1,1, jButton1_1);
         
     }//GEN-LAST:event_jButton1_1ActionPerformed
+
+    private void jButton1_20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_20ActionPerformed
+        metodoBotao(1, 20, jButton1_20);        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1_20ActionPerformed
+
+    private void jButton1_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_3ActionPerformed
+        metodoBotao(1,3, jButton1_3);        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1_3ActionPerformed
+
+    private void jButton1_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_4ActionPerformed
+        metodoBotao(1,4, jButton1_4);
+    }//GEN-LAST:event_jButton1_4ActionPerformed
+
+    private void jButton1_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_5ActionPerformed
+        metodoBotao(1,5, jButton1_5);
+    }//GEN-LAST:event_jButton1_5ActionPerformed
+
+    private void jButton1_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_6ActionPerformed
+        metodoBotao(1,6, jButton1_6);
+    }//GEN-LAST:event_jButton1_6ActionPerformed
+
+    private void jButton1_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_7ActionPerformed
+        metodoBotao(1,7, jButton1_7);
+    }//GEN-LAST:event_jButton1_7ActionPerformed
+
+    private void jButton1_8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_8ActionPerformed
+        metodoBotao(1,8, jButton1_8);
+    }//GEN-LAST:event_jButton1_8ActionPerformed
+
+    private void jButton1_9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_9ActionPerformed
+        metodoBotao(1,9, jButton1_9);
+    }//GEN-LAST:event_jButton1_9ActionPerformed
+
+    private void jButton1_10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_10ActionPerformed
+        metodoBotao(1,10, jButton1_10);
+    }//GEN-LAST:event_jButton1_10ActionPerformed
+
+    private void jButton1_11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_11ActionPerformed
+        metodoBotao(1,11, jButton1_11);
+    }//GEN-LAST:event_jButton1_11ActionPerformed
+
+    private void jButton1_12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_12ActionPerformed
+        metodoBotao(1,12, jButton1_12);
+    }//GEN-LAST:event_jButton1_12ActionPerformed
+
+    private void jButton1_13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_13ActionPerformed
+        metodoBotao(1,13, jButton1_13);
+    }//GEN-LAST:event_jButton1_13ActionPerformed
+
+    private void jButton1_14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_14ActionPerformed
+        metodoBotao(1,14, jButton1_14);
+    }//GEN-LAST:event_jButton1_14ActionPerformed
+
+    private void jButton1_15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_15ActionPerformed
+        metodoBotao(1,15, jButton1_15);
+    }//GEN-LAST:event_jButton1_15ActionPerformed
+
+    private void jButton1_16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_16ActionPerformed
+        metodoBotao(1,16, jButton1_16);
+    }//GEN-LAST:event_jButton1_16ActionPerformed
+
+    private void jButton1_17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_17ActionPerformed
+        metodoBotao(1,17, jButton1_17);
+    }//GEN-LAST:event_jButton1_17ActionPerformed
+
+    private void jButton1_18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_18ActionPerformed
+        metodoBotao(1,18, jButton1_18);
+    }//GEN-LAST:event_jButton1_18ActionPerformed
+
+    private void jButton1_19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_19ActionPerformed
+        metodoBotao(1,19, jButton1_19);
+    }//GEN-LAST:event_jButton1_19ActionPerformed
+
+    private void jButton2_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2_1ActionPerformed
+        metodoBotao(2,1, jButton2_1);
+    }//GEN-LAST:event_jButton2_1ActionPerformed
+
+    private void jButton2_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2_2ActionPerformed
+        metodoBotao(2,2, jButton2_2);
+    }//GEN-LAST:event_jButton2_2ActionPerformed
+
+    private void jButton2_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2_3ActionPerformed
+       metodoBotao(2,3, jButton2_3);
+    }//GEN-LAST:event_jButton2_3ActionPerformed
+
+    private void jButton2_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2_4ActionPerformed
+       metodoBotao(2,4, jButton2_4);
+    }//GEN-LAST:event_jButton2_4ActionPerformed
+
+    private void jButton2_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2_5ActionPerformed
+       metodoBotao(2,5, jButton2_5);
+    }//GEN-LAST:event_jButton2_5ActionPerformed
+
+    private void jButton2_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2_6ActionPerformed
+       metodoBotao(2,6, jButton2_6);
+    }//GEN-LAST:event_jButton2_6ActionPerformed
+
+    private void jButton2_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2_7ActionPerformed
+       metodoBotao(2,7, jButton2_7);
+    }//GEN-LAST:event_jButton2_7ActionPerformed
+
+    private void jButton2_8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2_8ActionPerformed
+       metodoBotao(2,8, jButton2_8);
+    }//GEN-LAST:event_jButton2_8ActionPerformed
+
+    private void jButton2_9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2_9ActionPerformed
+       metodoBotao(2,9, jButton2_9);
+    }//GEN-LAST:event_jButton2_9ActionPerformed
+
+    private void jButton2_10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2_10ActionPerformed
+       metodoBotao(2,10, jButton2_10);
+    }//GEN-LAST:event_jButton2_10ActionPerformed
+
+    private void jButton2_11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2_11ActionPerformed
+       metodoBotao(2,11, jButton2_11);
+    }//GEN-LAST:event_jButton2_11ActionPerformed
+
+    private void jButton2_12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2_12ActionPerformed
+       metodoBotao(2,12, jButton2_12);
+    }//GEN-LAST:event_jButton2_12ActionPerformed
+
+    private void jButton2_13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2_13ActionPerformed
+       metodoBotao(2,13, jButton2_13);
+    }//GEN-LAST:event_jButton2_13ActionPerformed
+
+    private void jButton2_14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2_14ActionPerformed
+       metodoBotao(2,14, jButton2_14);
+    }//GEN-LAST:event_jButton2_14ActionPerformed
+
+    private void jButton2_15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2_15ActionPerformed
+       metodoBotao(2,15, jButton2_15);
+    }//GEN-LAST:event_jButton2_15ActionPerformed
+
+    private void jButton2_16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2_16ActionPerformed
+       metodoBotao(2,16, jButton2_16);
+    }//GEN-LAST:event_jButton2_16ActionPerformed
+
+    private void jButton2_17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2_17ActionPerformed
+       metodoBotao(2,17, jButton2_17);
+    }//GEN-LAST:event_jButton2_17ActionPerformed
+
+    private void jButton2_18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2_18ActionPerformed
+       metodoBotao(2,18, jButton2_18);
+    }//GEN-LAST:event_jButton2_18ActionPerformed
+
+    private void jButton2_19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2_19ActionPerformed
+       metodoBotao(2,19, jButton2_19);
+    }//GEN-LAST:event_jButton2_19ActionPerformed
+
+    private void jButton2_20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2_20ActionPerformed
+       metodoBotao(2,20, jButton2_20);
+    }//GEN-LAST:event_jButton2_20ActionPerformed
+
+    private void jButton3_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3_1ActionPerformed
+       metodoBotao(3,1, jButton3_1);
+    }//GEN-LAST:event_jButton3_1ActionPerformed
+
+    private void jButton3_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3_2ActionPerformed
+       metodoBotao(3,2, jButton3_2);
+    }//GEN-LAST:event_jButton3_2ActionPerformed
+
+    private void jButton3_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3_3ActionPerformed
+       metodoBotao(3,3, jButton3_3);
+    }//GEN-LAST:event_jButton3_3ActionPerformed
+
+    private void jButton3_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3_4ActionPerformed
+       metodoBotao(3,4, jButton3_4);
+    }//GEN-LAST:event_jButton3_4ActionPerformed
+
+    private void jButton3_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3_5ActionPerformed
+       metodoBotao(3,5, jButton3_5);
+    }//GEN-LAST:event_jButton3_5ActionPerformed
+
+    private void jButton3_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3_6ActionPerformed
+       metodoBotao(3,6, jButton3_6);
+    }//GEN-LAST:event_jButton3_6ActionPerformed
+
+    private void jButton3_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3_7ActionPerformed
+       metodoBotao(3,7, jButton3_7);
+    }//GEN-LAST:event_jButton3_7ActionPerformed
+
+    private void jButton3_8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3_8ActionPerformed
+       metodoBotao(3,8, jButton3_8);
+    }//GEN-LAST:event_jButton3_8ActionPerformed
+
+    private void jButton3_9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3_9ActionPerformed
+       metodoBotao(3,9, jButton3_9);
+    }//GEN-LAST:event_jButton3_9ActionPerformed
+
+    private void jButton3_10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3_10ActionPerformed
+       metodoBotao(3,10, jButton3_10);
+    }//GEN-LAST:event_jButton3_10ActionPerformed
+
+    private void jButton3_11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3_11ActionPerformed
+       metodoBotao(3,11, jButton3_11);
+    }//GEN-LAST:event_jButton3_11ActionPerformed
+
+    private void jButton3_12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3_12ActionPerformed
+       metodoBotao(3,12, jButton3_12);
+    }//GEN-LAST:event_jButton3_12ActionPerformed
+
+    private void jButton3_13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3_13ActionPerformed
+       metodoBotao(3,13, jButton3_13);
+    }//GEN-LAST:event_jButton3_13ActionPerformed
+
+    private void jButton3_14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3_14ActionPerformed
+       metodoBotao(3,14, jButton3_14);
+    }//GEN-LAST:event_jButton3_14ActionPerformed
+
+    private void jButton3_15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3_15ActionPerformed
+       metodoBotao(3,15, jButton3_15);
+    }//GEN-LAST:event_jButton3_15ActionPerformed
+
+    private void jButton3_16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3_16ActionPerformed
+       metodoBotao(3,16, jButton3_16);
+    }//GEN-LAST:event_jButton3_16ActionPerformed
+
+    private void jButton3_17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3_17ActionPerformed
+       metodoBotao(3,17, jButton3_17);
+    }//GEN-LAST:event_jButton3_17ActionPerformed
+
+    private void jButton3_18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3_18ActionPerformed
+       metodoBotao(3,18, jButton3_18);
+    }//GEN-LAST:event_jButton3_18ActionPerformed
+
+    private void jButton3_19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3_19ActionPerformed
+       metodoBotao(3,19, jButton3_19);
+    }//GEN-LAST:event_jButton3_19ActionPerformed
+
+    private void jButton3_20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3_20ActionPerformed
+       metodoBotao(3,20, jButton3_20);
+    }//GEN-LAST:event_jButton3_20ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -4041,4 +4578,24 @@ public class Tabuleiro extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     // End of variables declaration//GEN-END:variables
+
+    private void metodoBotao(int x, int y, JButton btn) {
+        Navio navio = cenario.checkTiro(x, y);
+        if(navio == null){
+            btn.setBorder(null);
+        } else {
+            if(navio.getTipo() == "sub"){
+                btn.setBackground(Color.RED);
+            } else if(navio.getTipo() == "cruz"){
+                btn.setBackground(Color.YELLOW);
+            } else if(navio.getTipo() == "pAvioes"){
+                btn.setBackground(Color.MAGENTA);
+            } else if(navio.getTipo() == "paquete"){
+                btn.setBackground(Color.PINK);
+            } else if(navio.getTipo() == "pContentores"){
+                btn.setBackground(Color.GREEN);
+            }
+        }        
+        cenario.terminarJogo();
+    }
 }

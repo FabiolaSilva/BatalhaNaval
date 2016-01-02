@@ -128,7 +128,7 @@ public class Navio {
      * @param y coordenada y
      */
     public void adicionaPosicoesAtingidas(int x, int y){
-        int[] arrayTemp = null;
+        int[] arrayTemp = {0,0};
         arrayTemp[0] = x;
         arrayTemp[1] = y;
         
