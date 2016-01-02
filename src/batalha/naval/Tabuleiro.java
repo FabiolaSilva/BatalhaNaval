@@ -466,9 +466,8 @@ public class Tabuleiro extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(0, 102, 102));
 
-        jButton1_1.setBackground(new java.awt.Color(0, 102, 102));
-        jButton1_1.setBorder(null);
-        jButton1_1.setBorderPainted(false);
+        jButton1_1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_1.setMargin(new java.awt.Insets(2, 10, 2, 10));
         jButton1_1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -476,9 +475,8 @@ public class Tabuleiro extends javax.swing.JFrame {
             }
         });
 
-        jButton1_2.setBackground(new java.awt.Color(0, 102, 102));
-        jButton1_2.setBorder(null);
-        jButton1_2.setBorderPainted(false);
+        jButton1_2.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_2.setMargin(new java.awt.Insets(2, 10, 2, 10));
         jButton1_2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -486,1994 +484,1596 @@ public class Tabuleiro extends javax.swing.JFrame {
             }
         });
 
-        jButton1_3.setBackground(new java.awt.Color(0, 102, 102));
-        jButton1_3.setBorder(null);
-        jButton1_3.setBorderPainted(false);
+        jButton1_3.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_3.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton1_4.setBackground(new java.awt.Color(0, 102, 102));
-        jButton1_4.setBorder(null);
-        jButton1_4.setBorderPainted(false);
+        jButton1_4.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_4.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton1_5.setBackground(new java.awt.Color(0, 102, 102));
-        jButton1_5.setBorder(null);
-        jButton1_5.setBorderPainted(false);
+        jButton1_5.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_5.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton1_6.setBackground(new java.awt.Color(0, 102, 102));
-        jButton1_6.setBorder(null);
-        jButton1_6.setBorderPainted(false);
+        jButton1_6.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_6.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton1_7.setBackground(new java.awt.Color(0, 102, 102));
-        jButton1_7.setBorder(null);
-        jButton1_7.setBorderPainted(false);
+        jButton1_7.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_7.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton1_8.setBackground(new java.awt.Color(0, 102, 102));
-        jButton1_8.setBorder(null);
-        jButton1_8.setBorderPainted(false);
+        jButton1_8.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_8.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton1_9.setBackground(new java.awt.Color(0, 102, 102));
-        jButton1_9.setBorder(null);
-        jButton1_9.setBorderPainted(false);
+        jButton1_9.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1_9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_9.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton1_10.setBackground(new java.awt.Color(0, 102, 102));
-        jButton1_10.setBorder(null);
-        jButton1_10.setBorderPainted(false);
+        jButton1_10.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1_10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_10.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton1_11.setBackground(new java.awt.Color(0, 102, 102));
-        jButton1_11.setBorder(null);
-        jButton1_11.setBorderPainted(false);
+        jButton1_11.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1_11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_11.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton1_12.setBackground(new java.awt.Color(0, 102, 102));
-        jButton1_12.setBorder(null);
-        jButton1_12.setBorderPainted(false);
+        jButton1_12.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1_12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_12.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton1_13.setBackground(new java.awt.Color(0, 102, 102));
-        jButton1_13.setBorder(null);
-        jButton1_13.setBorderPainted(false);
+        jButton1_13.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1_13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_13.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton1_14.setBackground(new java.awt.Color(0, 102, 102));
-        jButton1_14.setBorder(null);
-        jButton1_14.setBorderPainted(false);
+        jButton1_14.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1_14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_14.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton1_15.setBackground(new java.awt.Color(0, 102, 102));
-        jButton1_15.setBorder(null);
-        jButton1_15.setBorderPainted(false);
+        jButton1_15.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1_15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_15.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton1_16.setBackground(new java.awt.Color(0, 102, 102));
-        jButton1_16.setBorder(null);
-        jButton1_16.setBorderPainted(false);
+        jButton1_16.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1_16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_16.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton1_17.setBackground(new java.awt.Color(0, 102, 102));
-        jButton1_17.setBorder(null);
-        jButton1_17.setBorderPainted(false);
+        jButton1_17.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1_17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_17.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton1_18.setBackground(new java.awt.Color(0, 102, 102));
-        jButton1_18.setBorder(null);
-        jButton1_18.setBorderPainted(false);
+        jButton1_18.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1_18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_18.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton1_19.setBackground(new java.awt.Color(0, 102, 102));
-        jButton1_19.setBorder(null);
-        jButton1_19.setBorderPainted(false);
+        jButton1_19.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1_19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_19.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton1_20.setBackground(new java.awt.Color(0, 102, 102));
-        jButton1_20.setBorder(null);
-        jButton1_20.setBorderPainted(false);
+        jButton1_20.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1_20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1_20.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton2_1.setBackground(new java.awt.Color(0, 102, 102));
-        jButton2_1.setBorder(null);
-        jButton2_1.setBorderPainted(false);
+        jButton2_1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton2_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_1.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton2_2.setBackground(new java.awt.Color(0, 102, 102));
-        jButton2_2.setBorder(null);
-        jButton2_2.setBorderPainted(false);
+        jButton2_2.setBackground(new java.awt.Color(0, 153, 153));
+        jButton2_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_2.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton2_3.setBackground(new java.awt.Color(0, 102, 102));
-        jButton2_3.setBorder(null);
-        jButton2_3.setBorderPainted(false);
+        jButton2_3.setBackground(new java.awt.Color(0, 153, 153));
+        jButton2_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_3.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton2_4.setBackground(new java.awt.Color(0, 102, 102));
-        jButton2_4.setBorder(null);
-        jButton2_4.setBorderPainted(false);
+        jButton2_4.setBackground(new java.awt.Color(0, 153, 153));
+        jButton2_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_4.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton2_5.setBackground(new java.awt.Color(0, 102, 102));
-        jButton2_5.setBorder(null);
-        jButton2_5.setBorderPainted(false);
+        jButton2_5.setBackground(new java.awt.Color(0, 153, 153));
+        jButton2_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_5.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton2_6.setBackground(new java.awt.Color(0, 102, 102));
-        jButton2_6.setBorder(null);
-        jButton2_6.setBorderPainted(false);
+        jButton2_6.setBackground(new java.awt.Color(0, 153, 153));
+        jButton2_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_6.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton2_7.setBackground(new java.awt.Color(0, 102, 102));
-        jButton2_7.setBorder(null);
-        jButton2_7.setBorderPainted(false);
+        jButton2_7.setBackground(new java.awt.Color(0, 153, 153));
+        jButton2_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_7.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton2_8.setBackground(new java.awt.Color(0, 102, 102));
-        jButton2_8.setBorder(null);
-        jButton2_8.setBorderPainted(false);
+        jButton2_8.setBackground(new java.awt.Color(0, 153, 153));
+        jButton2_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_8.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton2_9.setBackground(new java.awt.Color(0, 102, 102));
-        jButton2_9.setBorder(null);
-        jButton2_9.setBorderPainted(false);
+        jButton2_9.setBackground(new java.awt.Color(0, 153, 153));
+        jButton2_9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_9.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton2_10.setBackground(new java.awt.Color(0, 102, 102));
-        jButton2_10.setBorder(null);
-        jButton2_10.setBorderPainted(false);
+        jButton2_10.setBackground(new java.awt.Color(0, 153, 153));
+        jButton2_10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_10.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton2_11.setBackground(new java.awt.Color(0, 102, 102));
-        jButton2_11.setBorder(null);
-        jButton2_11.setBorderPainted(false);
+        jButton2_11.setBackground(new java.awt.Color(0, 153, 153));
+        jButton2_11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_11.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton2_12.setBackground(new java.awt.Color(0, 102, 102));
-        jButton2_12.setBorder(null);
-        jButton2_12.setBorderPainted(false);
+        jButton2_12.setBackground(new java.awt.Color(0, 153, 153));
+        jButton2_12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_12.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton2_13.setBackground(new java.awt.Color(0, 102, 102));
-        jButton2_13.setBorder(null);
-        jButton2_13.setBorderPainted(false);
+        jButton2_13.setBackground(new java.awt.Color(0, 153, 153));
+        jButton2_13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_13.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton2_14.setBackground(new java.awt.Color(0, 102, 102));
-        jButton2_14.setBorder(null);
-        jButton2_14.setBorderPainted(false);
+        jButton2_14.setBackground(new java.awt.Color(0, 153, 153));
+        jButton2_14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_14.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton2_15.setBackground(new java.awt.Color(0, 102, 102));
-        jButton2_15.setBorder(null);
-        jButton2_15.setBorderPainted(false);
+        jButton2_15.setBackground(new java.awt.Color(0, 153, 153));
+        jButton2_15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_15.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton2_16.setBackground(new java.awt.Color(0, 102, 102));
-        jButton2_16.setBorder(null);
-        jButton2_16.setBorderPainted(false);
+        jButton2_16.setBackground(new java.awt.Color(0, 153, 153));
+        jButton2_16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_16.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton2_17.setBackground(new java.awt.Color(0, 102, 102));
-        jButton2_17.setBorder(null);
-        jButton2_17.setBorderPainted(false);
+        jButton2_17.setBackground(new java.awt.Color(0, 153, 153));
+        jButton2_17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_17.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton2_18.setBackground(new java.awt.Color(0, 102, 102));
-        jButton2_18.setBorder(null);
-        jButton2_18.setBorderPainted(false);
+        jButton2_18.setBackground(new java.awt.Color(0, 153, 153));
+        jButton2_18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_18.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton2_19.setBackground(new java.awt.Color(0, 102, 102));
-        jButton2_19.setBorder(null);
-        jButton2_19.setBorderPainted(false);
+        jButton2_19.setBackground(new java.awt.Color(0, 153, 153));
+        jButton2_19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_19.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton2_20.setBackground(new java.awt.Color(0, 102, 102));
-        jButton2_20.setBorder(null);
-        jButton2_20.setBorderPainted(false);
+        jButton2_20.setBackground(new java.awt.Color(0, 153, 153));
+        jButton2_20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2_20.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton3_1.setBackground(new java.awt.Color(0, 102, 102));
-        jButton3_1.setBorder(null);
-        jButton3_1.setBorderPainted(false);
+        jButton3_1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton3_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_1.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton3_2.setBackground(new java.awt.Color(0, 102, 102));
-        jButton3_2.setBorder(null);
-        jButton3_2.setBorderPainted(false);
+        jButton3_2.setBackground(new java.awt.Color(0, 153, 153));
+        jButton3_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_2.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton3_3.setBackground(new java.awt.Color(0, 102, 102));
-        jButton3_3.setBorder(null);
-        jButton3_3.setBorderPainted(false);
+        jButton3_3.setBackground(new java.awt.Color(0, 153, 153));
+        jButton3_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_3.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton3_4.setBackground(new java.awt.Color(0, 102, 102));
-        jButton3_4.setBorder(null);
-        jButton3_4.setBorderPainted(false);
+        jButton3_4.setBackground(new java.awt.Color(0, 153, 153));
+        jButton3_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_4.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton3_5.setBackground(new java.awt.Color(0, 102, 102));
-        jButton3_5.setBorder(null);
-        jButton3_5.setBorderPainted(false);
+        jButton3_5.setBackground(new java.awt.Color(0, 153, 153));
+        jButton3_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_5.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton3_6.setBackground(new java.awt.Color(0, 102, 102));
-        jButton3_6.setBorder(null);
-        jButton3_6.setBorderPainted(false);
+        jButton3_6.setBackground(new java.awt.Color(0, 153, 153));
+        jButton3_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_6.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton3_7.setBackground(new java.awt.Color(0, 102, 102));
-        jButton3_7.setBorder(null);
-        jButton3_7.setBorderPainted(false);
+        jButton3_7.setBackground(new java.awt.Color(0, 153, 153));
+        jButton3_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_7.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton3_8.setBackground(new java.awt.Color(0, 102, 102));
-        jButton3_8.setBorder(null);
-        jButton3_8.setBorderPainted(false);
+        jButton3_8.setBackground(new java.awt.Color(0, 153, 153));
+        jButton3_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_8.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton3_9.setBackground(new java.awt.Color(0, 102, 102));
-        jButton3_9.setBorder(null);
-        jButton3_9.setBorderPainted(false);
+        jButton3_9.setBackground(new java.awt.Color(0, 153, 153));
+        jButton3_9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_9.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton3_10.setBackground(new java.awt.Color(0, 102, 102));
-        jButton3_10.setBorder(null);
-        jButton3_10.setBorderPainted(false);
+        jButton3_10.setBackground(new java.awt.Color(0, 153, 153));
+        jButton3_10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_10.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton3_11.setBackground(new java.awt.Color(0, 102, 102));
-        jButton3_11.setBorder(null);
-        jButton3_11.setBorderPainted(false);
+        jButton3_11.setBackground(new java.awt.Color(0, 153, 153));
+        jButton3_11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_11.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton3_12.setBackground(new java.awt.Color(0, 102, 102));
-        jButton3_12.setBorder(null);
-        jButton3_12.setBorderPainted(false);
+        jButton3_12.setBackground(new java.awt.Color(0, 153, 153));
+        jButton3_12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_12.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton3_13.setBackground(new java.awt.Color(0, 102, 102));
-        jButton3_13.setBorder(null);
-        jButton3_13.setBorderPainted(false);
+        jButton3_13.setBackground(new java.awt.Color(0, 153, 153));
+        jButton3_13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_13.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton3_14.setBackground(new java.awt.Color(0, 102, 102));
-        jButton3_14.setBorder(null);
-        jButton3_14.setBorderPainted(false);
+        jButton3_14.setBackground(new java.awt.Color(0, 153, 153));
+        jButton3_14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_14.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton3_15.setBackground(new java.awt.Color(0, 102, 102));
-        jButton3_15.setBorder(null);
-        jButton3_15.setBorderPainted(false);
+        jButton3_15.setBackground(new java.awt.Color(0, 153, 153));
+        jButton3_15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_15.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton3_16.setBackground(new java.awt.Color(0, 102, 102));
-        jButton3_16.setBorder(null);
-        jButton3_16.setBorderPainted(false);
+        jButton3_16.setBackground(new java.awt.Color(0, 153, 153));
+        jButton3_16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_16.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton3_17.setBackground(new java.awt.Color(0, 102, 102));
-        jButton3_17.setBorder(null);
-        jButton3_17.setBorderPainted(false);
+        jButton3_17.setBackground(new java.awt.Color(0, 153, 153));
+        jButton3_17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_17.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton3_18.setBackground(new java.awt.Color(0, 102, 102));
-        jButton3_18.setBorder(null);
-        jButton3_18.setBorderPainted(false);
+        jButton3_18.setBackground(new java.awt.Color(0, 153, 153));
+        jButton3_18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_18.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton3_19.setBackground(new java.awt.Color(0, 102, 102));
-        jButton3_19.setBorder(null);
-        jButton3_19.setBorderPainted(false);
+        jButton3_19.setBackground(new java.awt.Color(0, 153, 153));
+        jButton3_19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_19.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton3_20.setBackground(new java.awt.Color(0, 102, 102));
-        jButton3_20.setBorder(null);
-        jButton3_20.setBorderPainted(false);
+        jButton3_20.setBackground(new java.awt.Color(0, 153, 153));
+        jButton3_20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton3_20.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton4_1.setBackground(new java.awt.Color(0, 102, 102));
-        jButton4_1.setBorder(null);
-        jButton4_1.setBorderPainted(false);
+        jButton4_1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton4_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton4_1.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton4_2.setBackground(new java.awt.Color(0, 102, 102));
-        jButton4_2.setBorder(null);
-        jButton4_2.setBorderPainted(false);
+        jButton4_2.setBackground(new java.awt.Color(0, 153, 153));
+        jButton4_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton4_2.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton4_3.setBackground(new java.awt.Color(0, 102, 102));
-        jButton4_3.setBorder(null);
-        jButton4_3.setBorderPainted(false);
+        jButton4_3.setBackground(new java.awt.Color(0, 153, 153));
+        jButton4_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton4_3.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton4_4.setBackground(new java.awt.Color(0, 102, 102));
-        jButton4_4.setBorder(null);
-        jButton4_4.setBorderPainted(false);
+        jButton4_4.setBackground(new java.awt.Color(0, 153, 153));
+        jButton4_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton4_4.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton4_5.setBackground(new java.awt.Color(0, 102, 102));
-        jButton4_5.setBorder(null);
-        jButton4_5.setBorderPainted(false);
+        jButton4_5.setBackground(new java.awt.Color(0, 153, 153));
+        jButton4_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton4_5.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton4_6.setBackground(new java.awt.Color(0, 102, 102));
-        jButton4_6.setBorder(null);
-        jButton4_6.setBorderPainted(false);
+        jButton4_6.setBackground(new java.awt.Color(0, 153, 153));
+        jButton4_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton4_6.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton4_7.setBackground(new java.awt.Color(0, 102, 102));
-        jButton4_7.setBorder(null);
-        jButton4_7.setBorderPainted(false);
+        jButton4_7.setBackground(new java.awt.Color(0, 153, 153));
+        jButton4_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton4_7.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton4_8.setBackground(new java.awt.Color(0, 102, 102));
-        jButton4_8.setBorder(null);
-        jButton4_8.setBorderPainted(false);
+        jButton4_8.setBackground(new java.awt.Color(0, 153, 153));
+        jButton4_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton4_8.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton4_9.setBackground(new java.awt.Color(0, 102, 102));
-        jButton4_9.setBorder(null);
-        jButton4_9.setBorderPainted(false);
+        jButton4_9.setBackground(new java.awt.Color(0, 153, 153));
+        jButton4_9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton4_9.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton4_10.setBackground(new java.awt.Color(0, 102, 102));
-        jButton4_10.setBorder(null);
-        jButton4_10.setBorderPainted(false);
+        jButton4_10.setBackground(new java.awt.Color(0, 153, 153));
+        jButton4_10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton4_10.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton4_11.setBackground(new java.awt.Color(0, 102, 102));
-        jButton4_11.setBorder(null);
-        jButton4_11.setBorderPainted(false);
+        jButton4_11.setBackground(new java.awt.Color(0, 153, 153));
+        jButton4_11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton4_11.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton4_12.setBackground(new java.awt.Color(0, 102, 102));
-        jButton4_12.setBorder(null);
-        jButton4_12.setBorderPainted(false);
+        jButton4_12.setBackground(new java.awt.Color(0, 153, 153));
+        jButton4_12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton4_12.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton4_13.setBackground(new java.awt.Color(0, 102, 102));
-        jButton4_13.setBorder(null);
-        jButton4_13.setBorderPainted(false);
+        jButton4_13.setBackground(new java.awt.Color(0, 153, 153));
+        jButton4_13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton4_13.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton4_14.setBackground(new java.awt.Color(0, 102, 102));
-        jButton4_14.setBorder(null);
-        jButton4_14.setBorderPainted(false);
+        jButton4_14.setBackground(new java.awt.Color(0, 153, 153));
+        jButton4_14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton4_14.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton4_15.setBackground(new java.awt.Color(0, 102, 102));
-        jButton4_15.setBorder(null);
-        jButton4_15.setBorderPainted(false);
+        jButton4_15.setBackground(new java.awt.Color(0, 153, 153));
+        jButton4_15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton4_15.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton4_16.setBackground(new java.awt.Color(0, 102, 102));
-        jButton4_16.setBorder(null);
-        jButton4_16.setBorderPainted(false);
+        jButton4_16.setBackground(new java.awt.Color(0, 153, 153));
+        jButton4_16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton4_16.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton4_17.setBackground(new java.awt.Color(0, 102, 102));
-        jButton4_17.setBorder(null);
-        jButton4_17.setBorderPainted(false);
+        jButton4_17.setBackground(new java.awt.Color(0, 153, 153));
+        jButton4_17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton4_17.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton4_18.setBackground(new java.awt.Color(0, 102, 102));
-        jButton4_18.setBorder(null);
-        jButton4_18.setBorderPainted(false);
+        jButton4_18.setBackground(new java.awt.Color(0, 153, 153));
+        jButton4_18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton4_18.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton4_19.setBackground(new java.awt.Color(0, 102, 102));
-        jButton4_19.setBorder(null);
-        jButton4_19.setBorderPainted(false);
+        jButton4_19.setBackground(new java.awt.Color(0, 153, 153));
+        jButton4_19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton4_19.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton4_20.setBackground(new java.awt.Color(0, 102, 102));
-        jButton4_20.setBorder(null);
-        jButton4_20.setBorderPainted(false);
+        jButton4_20.setBackground(new java.awt.Color(0, 153, 153));
+        jButton4_20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton4_20.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton5_1.setBackground(new java.awt.Color(0, 102, 102));
-        jButton5_1.setBorder(null);
-        jButton5_1.setBorderPainted(false);
+        jButton5_1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton5_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton5_1.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton5_2.setBackground(new java.awt.Color(0, 102, 102));
-        jButton5_2.setBorder(null);
-        jButton5_2.setBorderPainted(false);
+        jButton5_2.setBackground(new java.awt.Color(0, 153, 153));
+        jButton5_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton5_2.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton5_3.setBackground(new java.awt.Color(0, 102, 102));
-        jButton5_3.setBorder(null);
-        jButton5_3.setBorderPainted(false);
+        jButton5_3.setBackground(new java.awt.Color(0, 153, 153));
+        jButton5_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton5_3.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton5_4.setBackground(new java.awt.Color(0, 102, 102));
-        jButton5_4.setBorder(null);
-        jButton5_4.setBorderPainted(false);
+        jButton5_4.setBackground(new java.awt.Color(0, 153, 153));
+        jButton5_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton5_4.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton5_5.setBackground(new java.awt.Color(0, 102, 102));
-        jButton5_5.setBorder(null);
-        jButton5_5.setBorderPainted(false);
+        jButton5_5.setBackground(new java.awt.Color(0, 153, 153));
+        jButton5_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton5_5.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton5_6.setBackground(new java.awt.Color(0, 102, 102));
-        jButton5_6.setBorder(null);
-        jButton5_6.setBorderPainted(false);
+        jButton5_6.setBackground(new java.awt.Color(0, 153, 153));
+        jButton5_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton5_6.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton5_7.setBackground(new java.awt.Color(0, 102, 102));
-        jButton5_7.setBorder(null);
-        jButton5_7.setBorderPainted(false);
+        jButton5_7.setBackground(new java.awt.Color(0, 153, 153));
+        jButton5_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton5_7.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton5_8.setBackground(new java.awt.Color(0, 102, 102));
-        jButton5_8.setBorder(null);
-        jButton5_8.setBorderPainted(false);
+        jButton5_8.setBackground(new java.awt.Color(0, 153, 153));
+        jButton5_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton5_8.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton5_9.setBackground(new java.awt.Color(0, 102, 102));
-        jButton5_9.setBorder(null);
-        jButton5_9.setBorderPainted(false);
+        jButton5_9.setBackground(new java.awt.Color(0, 153, 153));
+        jButton5_9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton5_9.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton5_10.setBackground(new java.awt.Color(0, 102, 102));
-        jButton5_10.setBorder(null);
-        jButton5_10.setBorderPainted(false);
+        jButton5_10.setBackground(new java.awt.Color(0, 153, 153));
+        jButton5_10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton5_10.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton5_11.setBackground(new java.awt.Color(0, 102, 102));
-        jButton5_11.setBorder(null);
-        jButton5_11.setBorderPainted(false);
+        jButton5_11.setBackground(new java.awt.Color(0, 153, 153));
+        jButton5_11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton5_11.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton5_12.setBackground(new java.awt.Color(0, 102, 102));
-        jButton5_12.setBorder(null);
-        jButton5_12.setBorderPainted(false);
+        jButton5_12.setBackground(new java.awt.Color(0, 153, 153));
+        jButton5_12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton5_12.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton5_13.setBackground(new java.awt.Color(0, 102, 102));
-        jButton5_13.setBorder(null);
-        jButton5_13.setBorderPainted(false);
+        jButton5_13.setBackground(new java.awt.Color(0, 153, 153));
+        jButton5_13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton5_13.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton5_14.setBackground(new java.awt.Color(0, 102, 102));
-        jButton5_14.setBorder(null);
-        jButton5_14.setBorderPainted(false);
+        jButton5_14.setBackground(new java.awt.Color(0, 153, 153));
+        jButton5_14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton5_14.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton5_15.setBackground(new java.awt.Color(0, 102, 102));
-        jButton5_15.setBorder(null);
-        jButton5_15.setBorderPainted(false);
+        jButton5_15.setBackground(new java.awt.Color(0, 153, 153));
+        jButton5_15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton5_15.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton5_16.setBackground(new java.awt.Color(0, 102, 102));
-        jButton5_16.setBorder(null);
-        jButton5_16.setBorderPainted(false);
+        jButton5_16.setBackground(new java.awt.Color(0, 153, 153));
+        jButton5_16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton5_16.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton5_17.setBackground(new java.awt.Color(0, 102, 102));
-        jButton5_17.setBorder(null);
-        jButton5_17.setBorderPainted(false);
+        jButton5_17.setBackground(new java.awt.Color(0, 153, 153));
+        jButton5_17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton5_17.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton5_18.setBackground(new java.awt.Color(0, 102, 102));
-        jButton5_18.setBorder(null);
-        jButton5_18.setBorderPainted(false);
+        jButton5_18.setBackground(new java.awt.Color(0, 153, 153));
+        jButton5_18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton5_18.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton5_19.setBackground(new java.awt.Color(0, 102, 102));
-        jButton5_19.setBorder(null);
-        jButton5_19.setBorderPainted(false);
+        jButton5_19.setBackground(new java.awt.Color(0, 153, 153));
+        jButton5_19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton5_19.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton5_20.setBackground(new java.awt.Color(0, 102, 102));
-        jButton5_20.setBorder(null);
-        jButton5_20.setBorderPainted(false);
+        jButton5_20.setBackground(new java.awt.Color(0, 153, 153));
+        jButton5_20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton5_20.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton6_1.setBackground(new java.awt.Color(0, 102, 102));
-        jButton6_1.setBorder(null);
-        jButton6_1.setBorderPainted(false);
+        jButton6_1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton6_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton6_1.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton6_2.setBackground(new java.awt.Color(0, 102, 102));
-        jButton6_2.setBorder(null);
-        jButton6_2.setBorderPainted(false);
+        jButton6_2.setBackground(new java.awt.Color(0, 153, 153));
+        jButton6_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton6_2.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton6_3.setBackground(new java.awt.Color(0, 102, 102));
-        jButton6_3.setBorder(null);
-        jButton6_3.setBorderPainted(false);
+        jButton6_3.setBackground(new java.awt.Color(0, 153, 153));
+        jButton6_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton6_3.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton6_4.setBackground(new java.awt.Color(0, 102, 102));
-        jButton6_4.setBorder(null);
-        jButton6_4.setBorderPainted(false);
+        jButton6_4.setBackground(new java.awt.Color(0, 153, 153));
+        jButton6_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton6_4.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton6_5.setBackground(new java.awt.Color(0, 102, 102));
-        jButton6_5.setBorder(null);
-        jButton6_5.setBorderPainted(false);
+        jButton6_5.setBackground(new java.awt.Color(0, 153, 153));
+        jButton6_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton6_5.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton6_6.setBackground(new java.awt.Color(0, 102, 102));
-        jButton6_6.setBorder(null);
-        jButton6_6.setBorderPainted(false);
+        jButton6_6.setBackground(new java.awt.Color(0, 153, 153));
+        jButton6_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton6_6.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton6_7.setBackground(new java.awt.Color(0, 102, 102));
-        jButton6_7.setBorder(null);
-        jButton6_7.setBorderPainted(false);
+        jButton6_7.setBackground(new java.awt.Color(0, 153, 153));
+        jButton6_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton6_7.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton6_8.setBackground(new java.awt.Color(0, 102, 102));
-        jButton6_8.setBorder(null);
-        jButton6_8.setBorderPainted(false);
+        jButton6_8.setBackground(new java.awt.Color(0, 153, 153));
+        jButton6_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton6_8.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton6_9.setBackground(new java.awt.Color(0, 102, 102));
-        jButton6_9.setBorder(null);
-        jButton6_9.setBorderPainted(false);
+        jButton6_9.setBackground(new java.awt.Color(0, 153, 153));
+        jButton6_9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton6_9.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton6_10.setBackground(new java.awt.Color(0, 102, 102));
-        jButton6_10.setBorder(null);
-        jButton6_10.setBorderPainted(false);
+        jButton6_10.setBackground(new java.awt.Color(0, 153, 153));
+        jButton6_10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton6_10.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton6_11.setBackground(new java.awt.Color(0, 102, 102));
-        jButton6_11.setBorder(null);
-        jButton6_11.setBorderPainted(false);
+        jButton6_11.setBackground(new java.awt.Color(0, 153, 153));
+        jButton6_11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton6_11.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton6_12.setBackground(new java.awt.Color(0, 102, 102));
-        jButton6_12.setBorder(null);
-        jButton6_12.setBorderPainted(false);
+        jButton6_12.setBackground(new java.awt.Color(0, 153, 153));
+        jButton6_12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton6_12.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton6_13.setBackground(new java.awt.Color(0, 102, 102));
-        jButton6_13.setBorder(null);
-        jButton6_13.setBorderPainted(false);
+        jButton6_13.setBackground(new java.awt.Color(0, 153, 153));
+        jButton6_13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton6_13.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton6_14.setBackground(new java.awt.Color(0, 102, 102));
-        jButton6_14.setBorder(null);
-        jButton6_14.setBorderPainted(false);
+        jButton6_14.setBackground(new java.awt.Color(0, 153, 153));
+        jButton6_14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton6_14.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton6_15.setBackground(new java.awt.Color(0, 102, 102));
-        jButton6_15.setBorder(null);
-        jButton6_15.setBorderPainted(false);
+        jButton6_15.setBackground(new java.awt.Color(0, 153, 153));
+        jButton6_15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton6_15.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton6_16.setBackground(new java.awt.Color(0, 102, 102));
-        jButton6_16.setBorder(null);
-        jButton6_16.setBorderPainted(false);
+        jButton6_16.setBackground(new java.awt.Color(0, 153, 153));
+        jButton6_16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton6_16.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton6_17.setBackground(new java.awt.Color(0, 102, 102));
-        jButton6_17.setBorder(null);
-        jButton6_17.setBorderPainted(false);
+        jButton6_17.setBackground(new java.awt.Color(0, 153, 153));
+        jButton6_17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton6_17.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton6_18.setBackground(new java.awt.Color(0, 102, 102));
-        jButton6_18.setBorder(null);
-        jButton6_18.setBorderPainted(false);
+        jButton6_18.setBackground(new java.awt.Color(0, 153, 153));
+        jButton6_18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton6_18.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton6_19.setBackground(new java.awt.Color(0, 102, 102));
-        jButton6_19.setBorder(null);
-        jButton6_19.setBorderPainted(false);
+        jButton6_19.setBackground(new java.awt.Color(0, 153, 153));
+        jButton6_19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton6_19.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton6_20.setBackground(new java.awt.Color(0, 102, 102));
-        jButton6_20.setBorder(null);
-        jButton6_20.setBorderPainted(false);
+        jButton6_20.setBackground(new java.awt.Color(0, 153, 153));
+        jButton6_20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton6_20.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton7_1.setBackground(new java.awt.Color(0, 102, 102));
-        jButton7_1.setBorder(null);
-        jButton7_1.setBorderPainted(false);
+        jButton7_1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton7_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton7_1.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton7_2.setBackground(new java.awt.Color(0, 102, 102));
-        jButton7_2.setBorder(null);
-        jButton7_2.setBorderPainted(false);
+        jButton7_2.setBackground(new java.awt.Color(0, 153, 153));
+        jButton7_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton7_2.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton7_3.setBackground(new java.awt.Color(0, 102, 102));
-        jButton7_3.setBorder(null);
-        jButton7_3.setBorderPainted(false);
+        jButton7_3.setBackground(new java.awt.Color(0, 153, 153));
+        jButton7_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton7_3.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton7_4.setBackground(new java.awt.Color(0, 102, 102));
-        jButton7_4.setBorder(null);
-        jButton7_4.setBorderPainted(false);
+        jButton7_4.setBackground(new java.awt.Color(0, 153, 153));
+        jButton7_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton7_4.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton7_5.setBackground(new java.awt.Color(0, 102, 102));
-        jButton7_5.setBorder(null);
-        jButton7_5.setBorderPainted(false);
+        jButton7_5.setBackground(new java.awt.Color(0, 153, 153));
+        jButton7_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton7_5.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton7_6.setBackground(new java.awt.Color(0, 102, 102));
-        jButton7_6.setBorder(null);
-        jButton7_6.setBorderPainted(false);
+        jButton7_6.setBackground(new java.awt.Color(0, 153, 153));
+        jButton7_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton7_6.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton7_7.setBackground(new java.awt.Color(0, 102, 102));
-        jButton7_7.setBorder(null);
-        jButton7_7.setBorderPainted(false);
+        jButton7_7.setBackground(new java.awt.Color(0, 153, 153));
+        jButton7_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton7_7.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton7_8.setBackground(new java.awt.Color(0, 102, 102));
-        jButton7_8.setBorder(null);
-        jButton7_8.setBorderPainted(false);
+        jButton7_8.setBackground(new java.awt.Color(0, 153, 153));
+        jButton7_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton7_8.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton7_9.setBackground(new java.awt.Color(0, 102, 102));
-        jButton7_9.setBorder(null);
-        jButton7_9.setBorderPainted(false);
+        jButton7_9.setBackground(new java.awt.Color(0, 153, 153));
+        jButton7_9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton7_9.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton7_10.setBackground(new java.awt.Color(0, 102, 102));
-        jButton7_10.setBorder(null);
-        jButton7_10.setBorderPainted(false);
+        jButton7_10.setBackground(new java.awt.Color(0, 153, 153));
+        jButton7_10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton7_10.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton7_11.setBackground(new java.awt.Color(0, 102, 102));
-        jButton7_11.setBorder(null);
-        jButton7_11.setBorderPainted(false);
+        jButton7_11.setBackground(new java.awt.Color(0, 153, 153));
+        jButton7_11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton7_11.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton7_12.setBackground(new java.awt.Color(0, 102, 102));
-        jButton7_12.setBorder(null);
-        jButton7_12.setBorderPainted(false);
+        jButton7_12.setBackground(new java.awt.Color(0, 153, 153));
+        jButton7_12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton7_12.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton7_13.setBackground(new java.awt.Color(0, 102, 102));
-        jButton7_13.setBorder(null);
-        jButton7_13.setBorderPainted(false);
+        jButton7_13.setBackground(new java.awt.Color(0, 153, 153));
+        jButton7_13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton7_13.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton7_14.setBackground(new java.awt.Color(0, 102, 102));
-        jButton7_14.setBorder(null);
-        jButton7_14.setBorderPainted(false);
+        jButton7_14.setBackground(new java.awt.Color(0, 153, 153));
+        jButton7_14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton7_14.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton7_15.setBackground(new java.awt.Color(0, 102, 102));
-        jButton7_15.setBorder(null);
-        jButton7_15.setBorderPainted(false);
+        jButton7_15.setBackground(new java.awt.Color(0, 153, 153));
+        jButton7_15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton7_15.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton7_16.setBackground(new java.awt.Color(0, 102, 102));
-        jButton7_16.setBorder(null);
-        jButton7_16.setBorderPainted(false);
+        jButton7_16.setBackground(new java.awt.Color(0, 153, 153));
+        jButton7_16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton7_16.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton7_17.setBackground(new java.awt.Color(0, 102, 102));
-        jButton7_17.setBorder(null);
-        jButton7_17.setBorderPainted(false);
+        jButton7_17.setBackground(new java.awt.Color(0, 153, 153));
+        jButton7_17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton7_17.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton7_18.setBackground(new java.awt.Color(0, 102, 102));
-        jButton7_18.setBorder(null);
-        jButton7_18.setBorderPainted(false);
+        jButton7_18.setBackground(new java.awt.Color(0, 153, 153));
+        jButton7_18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton7_18.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton7_19.setBackground(new java.awt.Color(0, 102, 102));
-        jButton7_19.setBorder(null);
-        jButton7_19.setBorderPainted(false);
+        jButton7_19.setBackground(new java.awt.Color(0, 153, 153));
+        jButton7_19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton7_19.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton7_20.setBackground(new java.awt.Color(0, 102, 102));
-        jButton7_20.setBorder(null);
-        jButton7_20.setBorderPainted(false);
+        jButton7_20.setBackground(new java.awt.Color(0, 153, 153));
+        jButton7_20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton7_20.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton8_1.setBackground(new java.awt.Color(0, 102, 102));
-        jButton8_1.setBorder(null);
-        jButton8_1.setBorderPainted(false);
+        jButton8_1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton8_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton8_1.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton8_2.setBackground(new java.awt.Color(0, 102, 102));
-        jButton8_2.setBorder(null);
-        jButton8_2.setBorderPainted(false);
+        jButton8_2.setBackground(new java.awt.Color(0, 153, 153));
+        jButton8_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton8_2.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton8_3.setBackground(new java.awt.Color(0, 102, 102));
-        jButton8_3.setBorder(null);
-        jButton8_3.setBorderPainted(false);
+        jButton8_3.setBackground(new java.awt.Color(0, 153, 153));
+        jButton8_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton8_3.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton8_4.setBackground(new java.awt.Color(0, 102, 102));
-        jButton8_4.setBorder(null);
-        jButton8_4.setBorderPainted(false);
+        jButton8_4.setBackground(new java.awt.Color(0, 153, 153));
+        jButton8_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton8_4.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton8_5.setBackground(new java.awt.Color(0, 102, 102));
-        jButton8_5.setBorder(null);
-        jButton8_5.setBorderPainted(false);
+        jButton8_5.setBackground(new java.awt.Color(0, 153, 153));
+        jButton8_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton8_5.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton8_6.setBackground(new java.awt.Color(0, 102, 102));
-        jButton8_6.setBorder(null);
-        jButton8_6.setBorderPainted(false);
+        jButton8_6.setBackground(new java.awt.Color(0, 153, 153));
+        jButton8_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton8_6.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton8_7.setBackground(new java.awt.Color(0, 102, 102));
-        jButton8_7.setBorder(null);
-        jButton8_7.setBorderPainted(false);
+        jButton8_7.setBackground(new java.awt.Color(0, 153, 153));
+        jButton8_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton8_7.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton8_8.setBackground(new java.awt.Color(0, 102, 102));
-        jButton8_8.setBorder(null);
-        jButton8_8.setBorderPainted(false);
+        jButton8_8.setBackground(new java.awt.Color(0, 153, 153));
+        jButton8_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton8_8.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton8_9.setBackground(new java.awt.Color(0, 102, 102));
-        jButton8_9.setBorder(null);
-        jButton8_9.setBorderPainted(false);
+        jButton8_9.setBackground(new java.awt.Color(0, 153, 153));
+        jButton8_9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton8_9.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton8_10.setBackground(new java.awt.Color(0, 102, 102));
-        jButton8_10.setBorder(null);
-        jButton8_10.setBorderPainted(false);
+        jButton8_10.setBackground(new java.awt.Color(0, 153, 153));
+        jButton8_10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton8_10.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton8_11.setBackground(new java.awt.Color(0, 102, 102));
-        jButton8_11.setBorder(null);
-        jButton8_11.setBorderPainted(false);
+        jButton8_11.setBackground(new java.awt.Color(0, 153, 153));
+        jButton8_11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton8_11.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton8_12.setBackground(new java.awt.Color(0, 102, 102));
-        jButton8_12.setBorder(null);
-        jButton8_12.setBorderPainted(false);
+        jButton8_12.setBackground(new java.awt.Color(0, 153, 153));
+        jButton8_12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton8_12.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton8_13.setBackground(new java.awt.Color(0, 102, 102));
-        jButton8_13.setBorder(null);
-        jButton8_13.setBorderPainted(false);
+        jButton8_13.setBackground(new java.awt.Color(0, 153, 153));
+        jButton8_13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton8_13.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton8_14.setBackground(new java.awt.Color(0, 102, 102));
-        jButton8_14.setBorder(null);
-        jButton8_14.setBorderPainted(false);
+        jButton8_14.setBackground(new java.awt.Color(0, 153, 153));
+        jButton8_14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton8_14.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton8_15.setBackground(new java.awt.Color(0, 102, 102));
-        jButton8_15.setBorder(null);
-        jButton8_15.setBorderPainted(false);
+        jButton8_15.setBackground(new java.awt.Color(0, 153, 153));
+        jButton8_15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton8_15.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton8_16.setBackground(new java.awt.Color(0, 102, 102));
-        jButton8_16.setBorder(null);
-        jButton8_16.setBorderPainted(false);
+        jButton8_16.setBackground(new java.awt.Color(0, 153, 153));
+        jButton8_16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton8_16.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton8_17.setBackground(new java.awt.Color(0, 102, 102));
-        jButton8_17.setBorder(null);
-        jButton8_17.setBorderPainted(false);
+        jButton8_17.setBackground(new java.awt.Color(0, 153, 153));
+        jButton8_17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton8_17.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton8_18.setBackground(new java.awt.Color(0, 102, 102));
-        jButton8_18.setBorder(null);
-        jButton8_18.setBorderPainted(false);
+        jButton8_18.setBackground(new java.awt.Color(0, 153, 153));
+        jButton8_18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton8_18.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton8_19.setBackground(new java.awt.Color(0, 102, 102));
-        jButton8_19.setBorder(null);
-        jButton8_19.setBorderPainted(false);
+        jButton8_19.setBackground(new java.awt.Color(0, 153, 153));
+        jButton8_19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton8_19.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton8_20.setBackground(new java.awt.Color(0, 102, 102));
-        jButton8_20.setBorder(null);
-        jButton8_20.setBorderPainted(false);
+        jButton8_20.setBackground(new java.awt.Color(0, 153, 153));
+        jButton8_20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton8_20.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton9_1.setBackground(new java.awt.Color(0, 102, 102));
-        jButton9_1.setBorder(null);
-        jButton9_1.setBorderPainted(false);
+        jButton9_1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton9_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton9_1.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton9_2.setBackground(new java.awt.Color(0, 102, 102));
-        jButton9_2.setBorder(null);
-        jButton9_2.setBorderPainted(false);
+        jButton9_2.setBackground(new java.awt.Color(0, 153, 153));
+        jButton9_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton9_2.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton9_3.setBackground(new java.awt.Color(0, 102, 102));
-        jButton9_3.setBorder(null);
-        jButton9_3.setBorderPainted(false);
+        jButton9_3.setBackground(new java.awt.Color(0, 153, 153));
+        jButton9_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton9_3.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton9_4.setBackground(new java.awt.Color(0, 102, 102));
-        jButton9_4.setBorder(null);
-        jButton9_4.setBorderPainted(false);
+        jButton9_4.setBackground(new java.awt.Color(0, 153, 153));
+        jButton9_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton9_4.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton9_5.setBackground(new java.awt.Color(0, 102, 102));
-        jButton9_5.setBorder(null);
-        jButton9_5.setBorderPainted(false);
+        jButton9_5.setBackground(new java.awt.Color(0, 153, 153));
+        jButton9_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton9_5.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton9_6.setBackground(new java.awt.Color(0, 102, 102));
-        jButton9_6.setBorder(null);
-        jButton9_6.setBorderPainted(false);
+        jButton9_6.setBackground(new java.awt.Color(0, 153, 153));
+        jButton9_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton9_6.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton9_7.setBackground(new java.awt.Color(0, 102, 102));
-        jButton9_7.setBorder(null);
-        jButton9_7.setBorderPainted(false);
+        jButton9_7.setBackground(new java.awt.Color(0, 153, 153));
+        jButton9_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton9_7.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton9_8.setBackground(new java.awt.Color(0, 102, 102));
-        jButton9_8.setBorder(null);
-        jButton9_8.setBorderPainted(false);
+        jButton9_8.setBackground(new java.awt.Color(0, 153, 153));
+        jButton9_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton9_8.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton9_9.setBackground(new java.awt.Color(0, 102, 102));
-        jButton9_9.setBorder(null);
-        jButton9_9.setBorderPainted(false);
+        jButton9_9.setBackground(new java.awt.Color(0, 153, 153));
+        jButton9_9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton9_9.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton9_10.setBackground(new java.awt.Color(0, 102, 102));
-        jButton9_10.setBorder(null);
-        jButton9_10.setBorderPainted(false);
+        jButton9_10.setBackground(new java.awt.Color(0, 153, 153));
+        jButton9_10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton9_10.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton9_11.setBackground(new java.awt.Color(0, 102, 102));
-        jButton9_11.setBorder(null);
-        jButton9_11.setBorderPainted(false);
+        jButton9_11.setBackground(new java.awt.Color(0, 153, 153));
+        jButton9_11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton9_11.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton9_12.setBackground(new java.awt.Color(0, 102, 102));
-        jButton9_12.setBorder(null);
-        jButton9_12.setBorderPainted(false);
+        jButton9_12.setBackground(new java.awt.Color(0, 153, 153));
+        jButton9_12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton9_12.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton9_13.setBackground(new java.awt.Color(0, 102, 102));
-        jButton9_13.setBorder(null);
-        jButton9_13.setBorderPainted(false);
+        jButton9_13.setBackground(new java.awt.Color(0, 153, 153));
+        jButton9_13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton9_13.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton9_14.setBackground(new java.awt.Color(0, 102, 102));
-        jButton9_14.setBorder(null);
-        jButton9_14.setBorderPainted(false);
+        jButton9_14.setBackground(new java.awt.Color(0, 153, 153));
+        jButton9_14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton9_14.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton9_15.setBackground(new java.awt.Color(0, 102, 102));
-        jButton9_15.setBorder(null);
-        jButton9_15.setBorderPainted(false);
+        jButton9_15.setBackground(new java.awt.Color(0, 153, 153));
+        jButton9_15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton9_15.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton9_16.setBackground(new java.awt.Color(0, 102, 102));
-        jButton9_16.setBorder(null);
-        jButton9_16.setBorderPainted(false);
+        jButton9_16.setBackground(new java.awt.Color(0, 153, 153));
+        jButton9_16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton9_16.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton9_17.setBackground(new java.awt.Color(0, 102, 102));
-        jButton9_17.setBorder(null);
-        jButton9_17.setBorderPainted(false);
+        jButton9_17.setBackground(new java.awt.Color(0, 153, 153));
+        jButton9_17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton9_17.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton9_18.setBackground(new java.awt.Color(0, 102, 102));
-        jButton9_18.setBorder(null);
-        jButton9_18.setBorderPainted(false);
+        jButton9_18.setBackground(new java.awt.Color(0, 153, 153));
+        jButton9_18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton9_18.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton9_19.setBackground(new java.awt.Color(0, 102, 102));
-        jButton9_19.setBorder(null);
-        jButton9_19.setBorderPainted(false);
+        jButton9_19.setBackground(new java.awt.Color(0, 153, 153));
+        jButton9_19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton9_19.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton9_20.setBackground(new java.awt.Color(0, 102, 102));
-        jButton9_20.setBorder(null);
-        jButton9_20.setBorderPainted(false);
+        jButton9_20.setBackground(new java.awt.Color(0, 153, 153));
+        jButton9_20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton9_20.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton10_1.setBackground(new java.awt.Color(0, 102, 102));
-        jButton10_1.setBorder(null);
-        jButton10_1.setBorderPainted(false);
+        jButton10_1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton10_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton10_1.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton10_2.setBackground(new java.awt.Color(0, 102, 102));
-        jButton10_2.setBorder(null);
-        jButton10_2.setBorderPainted(false);
+        jButton10_2.setBackground(new java.awt.Color(0, 153, 153));
+        jButton10_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton10_2.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton10_3.setBackground(new java.awt.Color(0, 102, 102));
-        jButton10_3.setBorder(null);
-        jButton10_3.setBorderPainted(false);
+        jButton10_3.setBackground(new java.awt.Color(0, 153, 153));
+        jButton10_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton10_3.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton10_4.setBackground(new java.awt.Color(0, 102, 102));
-        jButton10_4.setBorder(null);
-        jButton10_4.setBorderPainted(false);
+        jButton10_4.setBackground(new java.awt.Color(0, 153, 153));
+        jButton10_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton10_4.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton10_5.setBackground(new java.awt.Color(0, 102, 102));
-        jButton10_5.setBorder(null);
-        jButton10_5.setBorderPainted(false);
+        jButton10_5.setBackground(new java.awt.Color(0, 153, 153));
+        jButton10_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton10_5.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton10_6.setBackground(new java.awt.Color(0, 102, 102));
-        jButton10_6.setBorder(null);
-        jButton10_6.setBorderPainted(false);
+        jButton10_6.setBackground(new java.awt.Color(0, 153, 153));
+        jButton10_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton10_6.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton10_7.setBackground(new java.awt.Color(0, 102, 102));
-        jButton10_7.setBorder(null);
-        jButton10_7.setBorderPainted(false);
+        jButton10_7.setBackground(new java.awt.Color(0, 153, 153));
+        jButton10_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton10_7.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton10_8.setBackground(new java.awt.Color(0, 102, 102));
-        jButton10_8.setBorder(null);
-        jButton10_8.setBorderPainted(false);
+        jButton10_8.setBackground(new java.awt.Color(0, 153, 153));
+        jButton10_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton10_8.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton10_9.setBackground(new java.awt.Color(0, 102, 102));
-        jButton10_9.setBorder(null);
-        jButton10_9.setBorderPainted(false);
+        jButton10_9.setBackground(new java.awt.Color(0, 153, 153));
+        jButton10_9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton10_9.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton10_10.setBackground(new java.awt.Color(0, 102, 102));
-        jButton10_10.setBorder(null);
-        jButton10_10.setBorderPainted(false);
+        jButton10_10.setBackground(new java.awt.Color(0, 153, 153));
+        jButton10_10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton10_10.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton10_11.setBackground(new java.awt.Color(0, 102, 102));
-        jButton10_11.setBorder(null);
-        jButton10_11.setBorderPainted(false);
+        jButton10_11.setBackground(new java.awt.Color(0, 153, 153));
+        jButton10_11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton10_11.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton10_12.setBackground(new java.awt.Color(0, 102, 102));
-        jButton10_12.setBorder(null);
-        jButton10_12.setBorderPainted(false);
+        jButton10_12.setBackground(new java.awt.Color(0, 153, 153));
+        jButton10_12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton10_12.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton10_13.setBackground(new java.awt.Color(0, 102, 102));
-        jButton10_13.setBorder(null);
-        jButton10_13.setBorderPainted(false);
+        jButton10_13.setBackground(new java.awt.Color(0, 153, 153));
+        jButton10_13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton10_13.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton10_14.setBackground(new java.awt.Color(0, 102, 102));
-        jButton10_14.setBorder(null);
-        jButton10_14.setBorderPainted(false);
+        jButton10_14.setBackground(new java.awt.Color(0, 153, 153));
+        jButton10_14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton10_14.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton10_15.setBackground(new java.awt.Color(0, 102, 102));
-        jButton10_15.setBorder(null);
-        jButton10_15.setBorderPainted(false);
+        jButton10_15.setBackground(new java.awt.Color(0, 153, 153));
+        jButton10_15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton10_15.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton10_16.setBackground(new java.awt.Color(0, 102, 102));
-        jButton10_16.setBorder(null);
-        jButton10_16.setBorderPainted(false);
+        jButton10_16.setBackground(new java.awt.Color(0, 153, 153));
+        jButton10_16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton10_16.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton10_17.setBackground(new java.awt.Color(0, 102, 102));
-        jButton10_17.setBorder(null);
-        jButton10_17.setBorderPainted(false);
+        jButton10_17.setBackground(new java.awt.Color(0, 153, 153));
+        jButton10_17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton10_17.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton10_18.setBackground(new java.awt.Color(0, 102, 102));
-        jButton10_18.setBorder(null);
-        jButton10_18.setBorderPainted(false);
+        jButton10_18.setBackground(new java.awt.Color(0, 153, 153));
+        jButton10_18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton10_18.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton10_19.setBackground(new java.awt.Color(0, 102, 102));
-        jButton10_19.setBorder(null);
-        jButton10_19.setBorderPainted(false);
+        jButton10_19.setBackground(new java.awt.Color(0, 153, 153));
+        jButton10_19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton10_19.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton10_20.setBackground(new java.awt.Color(0, 102, 102));
-        jButton10_20.setBorder(null);
-        jButton10_20.setBorderPainted(false);
+        jButton10_20.setBackground(new java.awt.Color(0, 153, 153));
+        jButton10_20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton10_20.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton11_1.setBackground(new java.awt.Color(0, 102, 102));
-        jButton11_1.setBorder(null);
-        jButton11_1.setBorderPainted(false);
+        jButton11_1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton11_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton11_1.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton11_2.setBackground(new java.awt.Color(0, 102, 102));
-        jButton11_2.setBorder(null);
-        jButton11_2.setBorderPainted(false);
+        jButton11_2.setBackground(new java.awt.Color(0, 153, 153));
+        jButton11_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton11_2.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton11_3.setBackground(new java.awt.Color(0, 102, 102));
-        jButton11_3.setBorder(null);
-        jButton11_3.setBorderPainted(false);
+        jButton11_3.setBackground(new java.awt.Color(0, 153, 153));
+        jButton11_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton11_3.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton11_4.setBackground(new java.awt.Color(0, 102, 102));
-        jButton11_4.setBorder(null);
-        jButton11_4.setBorderPainted(false);
+        jButton11_4.setBackground(new java.awt.Color(0, 153, 153));
+        jButton11_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton11_4.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton11_5.setBackground(new java.awt.Color(0, 102, 102));
-        jButton11_5.setBorder(null);
-        jButton11_5.setBorderPainted(false);
+        jButton11_5.setBackground(new java.awt.Color(0, 153, 153));
+        jButton11_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton11_5.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton11_6.setBackground(new java.awt.Color(0, 102, 102));
-        jButton11_6.setBorder(null);
-        jButton11_6.setBorderPainted(false);
+        jButton11_6.setBackground(new java.awt.Color(0, 153, 153));
+        jButton11_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton11_6.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton11_7.setBackground(new java.awt.Color(0, 102, 102));
-        jButton11_7.setBorder(null);
-        jButton11_7.setBorderPainted(false);
+        jButton11_7.setBackground(new java.awt.Color(0, 153, 153));
+        jButton11_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton11_7.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton11_8.setBackground(new java.awt.Color(0, 102, 102));
-        jButton11_8.setBorder(null);
-        jButton11_8.setBorderPainted(false);
+        jButton11_8.setBackground(new java.awt.Color(0, 153, 153));
+        jButton11_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton11_8.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton11_9.setBackground(new java.awt.Color(0, 102, 102));
-        jButton11_9.setBorder(null);
-        jButton11_9.setBorderPainted(false);
+        jButton11_9.setBackground(new java.awt.Color(0, 153, 153));
+        jButton11_9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton11_9.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton11_10.setBackground(new java.awt.Color(0, 102, 102));
-        jButton11_10.setBorder(null);
-        jButton11_10.setBorderPainted(false);
+        jButton11_10.setBackground(new java.awt.Color(0, 153, 153));
+        jButton11_10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton11_10.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton11_11.setBackground(new java.awt.Color(0, 102, 102));
-        jButton11_11.setBorder(null);
-        jButton11_11.setBorderPainted(false);
+        jButton11_11.setBackground(new java.awt.Color(0, 153, 153));
+        jButton11_11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton11_11.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton11_12.setBackground(new java.awt.Color(0, 102, 102));
-        jButton11_12.setBorder(null);
-        jButton11_12.setBorderPainted(false);
+        jButton11_12.setBackground(new java.awt.Color(0, 153, 153));
+        jButton11_12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton11_12.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton11_13.setBackground(new java.awt.Color(0, 102, 102));
-        jButton11_13.setBorder(null);
-        jButton11_13.setBorderPainted(false);
+        jButton11_13.setBackground(new java.awt.Color(0, 153, 153));
+        jButton11_13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton11_13.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton11_14.setBackground(new java.awt.Color(0, 102, 102));
-        jButton11_14.setBorder(null);
-        jButton11_14.setBorderPainted(false);
+        jButton11_14.setBackground(new java.awt.Color(0, 153, 153));
+        jButton11_14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton11_14.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton11_15.setBackground(new java.awt.Color(0, 102, 102));
-        jButton11_15.setBorder(null);
-        jButton11_15.setBorderPainted(false);
+        jButton11_15.setBackground(new java.awt.Color(0, 153, 153));
+        jButton11_15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton11_15.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton11_16.setBackground(new java.awt.Color(0, 102, 102));
-        jButton11_16.setBorder(null);
-        jButton11_16.setBorderPainted(false);
+        jButton11_16.setBackground(new java.awt.Color(0, 153, 153));
+        jButton11_16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton11_16.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton11_17.setBackground(new java.awt.Color(0, 102, 102));
-        jButton11_17.setBorder(null);
-        jButton11_17.setBorderPainted(false);
+        jButton11_17.setBackground(new java.awt.Color(0, 153, 153));
+        jButton11_17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton11_17.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton11_18.setBackground(new java.awt.Color(0, 102, 102));
-        jButton11_18.setBorder(null);
-        jButton11_18.setBorderPainted(false);
+        jButton11_18.setBackground(new java.awt.Color(0, 153, 153));
+        jButton11_18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton11_18.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton11_19.setBackground(new java.awt.Color(0, 102, 102));
-        jButton11_19.setBorder(null);
-        jButton11_19.setBorderPainted(false);
+        jButton11_19.setBackground(new java.awt.Color(0, 153, 153));
+        jButton11_19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton11_19.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton11_20.setBackground(new java.awt.Color(0, 102, 102));
-        jButton11_20.setBorder(null);
-        jButton11_20.setBorderPainted(false);
+        jButton11_20.setBackground(new java.awt.Color(0, 153, 153));
+        jButton11_20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton11_20.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton12_1.setBackground(new java.awt.Color(0, 102, 102));
-        jButton12_1.setBorder(null);
-        jButton12_1.setBorderPainted(false);
+        jButton12_1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton12_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton12_1.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton12_2.setBackground(new java.awt.Color(0, 102, 102));
-        jButton12_2.setBorder(null);
-        jButton12_2.setBorderPainted(false);
+        jButton12_2.setBackground(new java.awt.Color(0, 153, 153));
+        jButton12_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton12_2.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton12_3.setBackground(new java.awt.Color(0, 102, 102));
-        jButton12_3.setBorder(null);
-        jButton12_3.setBorderPainted(false);
+        jButton12_3.setBackground(new java.awt.Color(0, 153, 153));
+        jButton12_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton12_3.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton12_4.setBackground(new java.awt.Color(0, 102, 102));
-        jButton12_4.setBorder(null);
-        jButton12_4.setBorderPainted(false);
+        jButton12_4.setBackground(new java.awt.Color(0, 153, 153));
+        jButton12_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton12_4.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton12_5.setBackground(new java.awt.Color(0, 102, 102));
-        jButton12_5.setBorder(null);
-        jButton12_5.setBorderPainted(false);
+        jButton12_5.setBackground(new java.awt.Color(0, 153, 153));
+        jButton12_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton12_5.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton12_6.setBackground(new java.awt.Color(0, 102, 102));
-        jButton12_6.setBorder(null);
-        jButton12_6.setBorderPainted(false);
+        jButton12_6.setBackground(new java.awt.Color(0, 153, 153));
+        jButton12_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton12_6.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton12_7.setBackground(new java.awt.Color(0, 102, 102));
-        jButton12_7.setBorder(null);
-        jButton12_7.setBorderPainted(false);
+        jButton12_7.setBackground(new java.awt.Color(0, 153, 153));
+        jButton12_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton12_7.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton12_8.setBackground(new java.awt.Color(0, 102, 102));
-        jButton12_8.setBorder(null);
-        jButton12_8.setBorderPainted(false);
+        jButton12_8.setBackground(new java.awt.Color(0, 153, 153));
+        jButton12_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton12_8.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton12_9.setBackground(new java.awt.Color(0, 102, 102));
-        jButton12_9.setBorder(null);
-        jButton12_9.setBorderPainted(false);
+        jButton12_9.setBackground(new java.awt.Color(0, 153, 153));
+        jButton12_9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton12_9.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton12_10.setBackground(new java.awt.Color(0, 102, 102));
-        jButton12_10.setBorder(null);
-        jButton12_10.setBorderPainted(false);
+        jButton12_10.setBackground(new java.awt.Color(0, 153, 153));
+        jButton12_10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton12_10.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton12_11.setBackground(new java.awt.Color(0, 102, 102));
-        jButton12_11.setBorder(null);
-        jButton12_11.setBorderPainted(false);
+        jButton12_11.setBackground(new java.awt.Color(0, 153, 153));
+        jButton12_11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton12_11.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton12_12.setBackground(new java.awt.Color(0, 102, 102));
-        jButton12_12.setBorder(null);
-        jButton12_12.setBorderPainted(false);
+        jButton12_12.setBackground(new java.awt.Color(0, 153, 153));
+        jButton12_12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton12_12.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton12_13.setBackground(new java.awt.Color(0, 102, 102));
-        jButton12_13.setBorder(null);
-        jButton12_13.setBorderPainted(false);
+        jButton12_13.setBackground(new java.awt.Color(0, 153, 153));
+        jButton12_13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton12_13.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton12_14.setBackground(new java.awt.Color(0, 102, 102));
-        jButton12_14.setBorder(null);
-        jButton12_14.setBorderPainted(false);
+        jButton12_14.setBackground(new java.awt.Color(0, 153, 153));
+        jButton12_14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton12_14.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton12_15.setBackground(new java.awt.Color(0, 102, 102));
-        jButton12_15.setBorder(null);
-        jButton12_15.setBorderPainted(false);
+        jButton12_15.setBackground(new java.awt.Color(0, 153, 153));
+        jButton12_15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton12_15.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton12_16.setBackground(new java.awt.Color(0, 102, 102));
-        jButton12_16.setBorder(null);
-        jButton12_16.setBorderPainted(false);
+        jButton12_16.setBackground(new java.awt.Color(0, 153, 153));
+        jButton12_16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton12_16.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton12_17.setBackground(new java.awt.Color(0, 102, 102));
-        jButton12_17.setBorder(null);
-        jButton12_17.setBorderPainted(false);
+        jButton12_17.setBackground(new java.awt.Color(0, 153, 153));
+        jButton12_17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton12_17.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton12_18.setBackground(new java.awt.Color(0, 102, 102));
-        jButton12_18.setBorder(null);
-        jButton12_18.setBorderPainted(false);
+        jButton12_18.setBackground(new java.awt.Color(0, 153, 153));
+        jButton12_18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton12_18.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton12_19.setBackground(new java.awt.Color(0, 102, 102));
-        jButton12_19.setBorder(null);
-        jButton12_19.setBorderPainted(false);
+        jButton12_19.setBackground(new java.awt.Color(0, 153, 153));
+        jButton12_19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton12_19.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton12_20.setBackground(new java.awt.Color(0, 102, 102));
-        jButton12_20.setBorder(null);
-        jButton12_20.setBorderPainted(false);
+        jButton12_20.setBackground(new java.awt.Color(0, 153, 153));
+        jButton12_20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton12_20.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton13_1.setBackground(new java.awt.Color(0, 102, 102));
-        jButton13_1.setBorder(null);
-        jButton13_1.setBorderPainted(false);
+        jButton13_1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton13_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton13_1.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton13_2.setBackground(new java.awt.Color(0, 102, 102));
-        jButton13_2.setBorder(null);
-        jButton13_2.setBorderPainted(false);
+        jButton13_2.setBackground(new java.awt.Color(0, 153, 153));
+        jButton13_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton13_2.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton13_3.setBackground(new java.awt.Color(0, 102, 102));
-        jButton13_3.setBorder(null);
-        jButton13_3.setBorderPainted(false);
+        jButton13_3.setBackground(new java.awt.Color(0, 153, 153));
+        jButton13_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton13_3.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton13_4.setBackground(new java.awt.Color(0, 102, 102));
-        jButton13_4.setBorder(null);
-        jButton13_4.setBorderPainted(false);
+        jButton13_4.setBackground(new java.awt.Color(0, 153, 153));
+        jButton13_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton13_4.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton13_5.setBackground(new java.awt.Color(0, 102, 102));
-        jButton13_5.setBorder(null);
-        jButton13_5.setBorderPainted(false);
+        jButton13_5.setBackground(new java.awt.Color(0, 153, 153));
+        jButton13_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton13_5.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton13_6.setBackground(new java.awt.Color(0, 102, 102));
-        jButton13_6.setBorder(null);
-        jButton13_6.setBorderPainted(false);
+        jButton13_6.setBackground(new java.awt.Color(0, 153, 153));
+        jButton13_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton13_6.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton13_7.setBackground(new java.awt.Color(0, 102, 102));
-        jButton13_7.setBorder(null);
-        jButton13_7.setBorderPainted(false);
+        jButton13_7.setBackground(new java.awt.Color(0, 153, 153));
+        jButton13_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton13_7.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton13_8.setBackground(new java.awt.Color(0, 102, 102));
-        jButton13_8.setBorder(null);
-        jButton13_8.setBorderPainted(false);
+        jButton13_8.setBackground(new java.awt.Color(0, 153, 153));
+        jButton13_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton13_8.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton13_9.setBackground(new java.awt.Color(0, 102, 102));
-        jButton13_9.setBorder(null);
-        jButton13_9.setBorderPainted(false);
+        jButton13_9.setBackground(new java.awt.Color(0, 153, 153));
+        jButton13_9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton13_9.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton13_10.setBackground(new java.awt.Color(0, 102, 102));
-        jButton13_10.setBorder(null);
-        jButton13_10.setBorderPainted(false);
+        jButton13_10.setBackground(new java.awt.Color(0, 153, 153));
+        jButton13_10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton13_10.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton13_11.setBackground(new java.awt.Color(0, 102, 102));
-        jButton13_11.setBorder(null);
-        jButton13_11.setBorderPainted(false);
+        jButton13_11.setBackground(new java.awt.Color(0, 153, 153));
+        jButton13_11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton13_11.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton13_12.setBackground(new java.awt.Color(0, 102, 102));
-        jButton13_12.setBorder(null);
-        jButton13_12.setBorderPainted(false);
+        jButton13_12.setBackground(new java.awt.Color(0, 153, 153));
+        jButton13_12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton13_12.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton13_13.setBackground(new java.awt.Color(0, 102, 102));
-        jButton13_13.setBorder(null);
-        jButton13_13.setBorderPainted(false);
+        jButton13_13.setBackground(new java.awt.Color(0, 153, 153));
+        jButton13_13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton13_13.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton13_14.setBackground(new java.awt.Color(0, 102, 102));
-        jButton13_14.setBorder(null);
-        jButton13_14.setBorderPainted(false);
+        jButton13_14.setBackground(new java.awt.Color(0, 153, 153));
+        jButton13_14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton13_14.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton13_15.setBackground(new java.awt.Color(0, 102, 102));
-        jButton13_15.setBorder(null);
-        jButton13_15.setBorderPainted(false);
+        jButton13_15.setBackground(new java.awt.Color(0, 153, 153));
+        jButton13_15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton13_15.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton13_16.setBackground(new java.awt.Color(0, 102, 102));
-        jButton13_16.setBorder(null);
-        jButton13_16.setBorderPainted(false);
+        jButton13_16.setBackground(new java.awt.Color(0, 153, 153));
+        jButton13_16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton13_16.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton13_17.setBackground(new java.awt.Color(0, 102, 102));
-        jButton13_17.setBorder(null);
-        jButton13_17.setBorderPainted(false);
+        jButton13_17.setBackground(new java.awt.Color(0, 153, 153));
+        jButton13_17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton13_17.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton13_18.setBackground(new java.awt.Color(0, 102, 102));
-        jButton13_18.setBorder(null);
-        jButton13_18.setBorderPainted(false);
+        jButton13_18.setBackground(new java.awt.Color(0, 153, 153));
+        jButton13_18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton13_18.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton13_19.setBackground(new java.awt.Color(0, 102, 102));
-        jButton13_19.setBorder(null);
-        jButton13_19.setBorderPainted(false);
+        jButton13_19.setBackground(new java.awt.Color(0, 153, 153));
+        jButton13_19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton13_19.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton13_20.setBackground(new java.awt.Color(0, 102, 102));
-        jButton13_20.setBorder(null);
-        jButton13_20.setBorderPainted(false);
+        jButton13_20.setBackground(new java.awt.Color(0, 153, 153));
+        jButton13_20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton13_20.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton14_1.setBackground(new java.awt.Color(0, 102, 102));
-        jButton14_1.setBorder(null);
-        jButton14_1.setBorderPainted(false);
+        jButton14_1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton14_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton14_1.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton14_2.setBackground(new java.awt.Color(0, 102, 102));
-        jButton14_2.setBorder(null);
-        jButton14_2.setBorderPainted(false);
+        jButton14_2.setBackground(new java.awt.Color(0, 153, 153));
+        jButton14_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton14_2.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton14_3.setBackground(new java.awt.Color(0, 102, 102));
-        jButton14_3.setBorder(null);
-        jButton14_3.setBorderPainted(false);
+        jButton14_3.setBackground(new java.awt.Color(0, 153, 153));
+        jButton14_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton14_3.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton14_4.setBackground(new java.awt.Color(0, 102, 102));
-        jButton14_4.setBorder(null);
-        jButton14_4.setBorderPainted(false);
+        jButton14_4.setBackground(new java.awt.Color(0, 153, 153));
+        jButton14_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton14_4.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton14_5.setBackground(new java.awt.Color(0, 102, 102));
-        jButton14_5.setBorder(null);
-        jButton14_5.setBorderPainted(false);
+        jButton14_5.setBackground(new java.awt.Color(0, 153, 153));
+        jButton14_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton14_5.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton14_6.setBackground(new java.awt.Color(0, 102, 102));
-        jButton14_6.setBorder(null);
-        jButton14_6.setBorderPainted(false);
+        jButton14_6.setBackground(new java.awt.Color(0, 153, 153));
+        jButton14_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton14_6.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton14_7.setBackground(new java.awt.Color(0, 102, 102));
-        jButton14_7.setBorder(null);
-        jButton14_7.setBorderPainted(false);
+        jButton14_7.setBackground(new java.awt.Color(0, 153, 153));
+        jButton14_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton14_7.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton14_8.setBackground(new java.awt.Color(0, 102, 102));
-        jButton14_8.setBorder(null);
-        jButton14_8.setBorderPainted(false);
+        jButton14_8.setBackground(new java.awt.Color(0, 153, 153));
+        jButton14_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton14_8.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton14_9.setBackground(new java.awt.Color(0, 102, 102));
-        jButton14_9.setBorder(null);
-        jButton14_9.setBorderPainted(false);
+        jButton14_9.setBackground(new java.awt.Color(0, 153, 153));
+        jButton14_9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton14_9.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton14_10.setBackground(new java.awt.Color(0, 102, 102));
-        jButton14_10.setBorder(null);
-        jButton14_10.setBorderPainted(false);
+        jButton14_10.setBackground(new java.awt.Color(0, 153, 153));
+        jButton14_10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton14_10.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton14_11.setBackground(new java.awt.Color(0, 102, 102));
-        jButton14_11.setBorder(null);
-        jButton14_11.setBorderPainted(false);
+        jButton14_11.setBackground(new java.awt.Color(0, 153, 153));
+        jButton14_11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton14_11.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton14_12.setBackground(new java.awt.Color(0, 102, 102));
-        jButton14_12.setBorder(null);
-        jButton14_12.setBorderPainted(false);
+        jButton14_12.setBackground(new java.awt.Color(0, 153, 153));
+        jButton14_12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton14_12.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton14_13.setBackground(new java.awt.Color(0, 102, 102));
-        jButton14_13.setBorder(null);
-        jButton14_13.setBorderPainted(false);
+        jButton14_13.setBackground(new java.awt.Color(0, 153, 153));
+        jButton14_13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton14_13.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton14_14.setBackground(new java.awt.Color(0, 102, 102));
-        jButton14_14.setBorder(null);
-        jButton14_14.setBorderPainted(false);
+        jButton14_14.setBackground(new java.awt.Color(0, 153, 153));
+        jButton14_14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton14_14.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton14_15.setBackground(new java.awt.Color(0, 102, 102));
-        jButton14_15.setBorder(null);
-        jButton14_15.setBorderPainted(false);
+        jButton14_15.setBackground(new java.awt.Color(0, 153, 153));
+        jButton14_15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton14_15.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton14_16.setBackground(new java.awt.Color(0, 102, 102));
-        jButton14_16.setBorder(null);
-        jButton14_16.setBorderPainted(false);
+        jButton14_16.setBackground(new java.awt.Color(0, 153, 153));
+        jButton14_16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton14_16.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton14_17.setBackground(new java.awt.Color(0, 102, 102));
-        jButton14_17.setBorder(null);
-        jButton14_17.setBorderPainted(false);
+        jButton14_17.setBackground(new java.awt.Color(0, 153, 153));
+        jButton14_17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton14_17.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton14_18.setBackground(new java.awt.Color(0, 102, 102));
-        jButton14_18.setBorder(null);
-        jButton14_18.setBorderPainted(false);
+        jButton14_18.setBackground(new java.awt.Color(0, 153, 153));
+        jButton14_18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton14_18.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton14_19.setBackground(new java.awt.Color(0, 102, 102));
-        jButton14_19.setBorder(null);
-        jButton14_19.setBorderPainted(false);
+        jButton14_19.setBackground(new java.awt.Color(0, 153, 153));
+        jButton14_19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton14_19.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton14_20.setBackground(new java.awt.Color(0, 102, 102));
-        jButton14_20.setBorder(null);
-        jButton14_20.setBorderPainted(false);
+        jButton14_20.setBackground(new java.awt.Color(0, 153, 153));
+        jButton14_20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton14_20.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton15_1.setBackground(new java.awt.Color(0, 102, 102));
-        jButton15_1.setBorder(null);
-        jButton15_1.setBorderPainted(false);
+        jButton15_1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton15_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton15_1.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton15_2.setBackground(new java.awt.Color(0, 102, 102));
-        jButton15_2.setBorder(null);
-        jButton15_2.setBorderPainted(false);
+        jButton15_2.setBackground(new java.awt.Color(0, 153, 153));
+        jButton15_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton15_2.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton15_3.setBackground(new java.awt.Color(0, 102, 102));
-        jButton15_3.setBorder(null);
-        jButton15_3.setBorderPainted(false);
+        jButton15_3.setBackground(new java.awt.Color(0, 153, 153));
+        jButton15_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton15_3.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton15_4.setBackground(new java.awt.Color(0, 102, 102));
-        jButton15_4.setBorder(null);
-        jButton15_4.setBorderPainted(false);
+        jButton15_4.setBackground(new java.awt.Color(0, 153, 153));
+        jButton15_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton15_4.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton15_5.setBackground(new java.awt.Color(0, 102, 102));
-        jButton15_5.setBorder(null);
-        jButton15_5.setBorderPainted(false);
+        jButton15_5.setBackground(new java.awt.Color(0, 153, 153));
+        jButton15_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton15_5.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton15_6.setBackground(new java.awt.Color(0, 102, 102));
-        jButton15_6.setBorder(null);
-        jButton15_6.setBorderPainted(false);
+        jButton15_6.setBackground(new java.awt.Color(0, 153, 153));
+        jButton15_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton15_6.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton15_7.setBackground(new java.awt.Color(0, 102, 102));
-        jButton15_7.setBorder(null);
-        jButton15_7.setBorderPainted(false);
+        jButton15_7.setBackground(new java.awt.Color(0, 153, 153));
+        jButton15_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton15_7.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton15_8.setBackground(new java.awt.Color(0, 102, 102));
-        jButton15_8.setBorder(null);
-        jButton15_8.setBorderPainted(false);
+        jButton15_8.setBackground(new java.awt.Color(0, 153, 153));
+        jButton15_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton15_8.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton15_9.setBackground(new java.awt.Color(0, 102, 102));
-        jButton15_9.setBorder(null);
-        jButton15_9.setBorderPainted(false);
+        jButton15_9.setBackground(new java.awt.Color(0, 153, 153));
+        jButton15_9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton15_9.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton15_10.setBackground(new java.awt.Color(0, 102, 102));
-        jButton15_10.setBorder(null);
-        jButton15_10.setBorderPainted(false);
+        jButton15_10.setBackground(new java.awt.Color(0, 153, 153));
+        jButton15_10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton15_10.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton15_11.setBackground(new java.awt.Color(0, 102, 102));
-        jButton15_11.setBorder(null);
-        jButton15_11.setBorderPainted(false);
+        jButton15_11.setBackground(new java.awt.Color(0, 153, 153));
+        jButton15_11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton15_11.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton15_12.setBackground(new java.awt.Color(0, 102, 102));
-        jButton15_12.setBorder(null);
-        jButton15_12.setBorderPainted(false);
+        jButton15_12.setBackground(new java.awt.Color(0, 153, 153));
+        jButton15_12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton15_12.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton15_13.setBackground(new java.awt.Color(0, 102, 102));
-        jButton15_13.setBorder(null);
-        jButton15_13.setBorderPainted(false);
+        jButton15_13.setBackground(new java.awt.Color(0, 153, 153));
+        jButton15_13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton15_13.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton15_14.setBackground(new java.awt.Color(0, 102, 102));
-        jButton15_14.setBorder(null);
-        jButton15_14.setBorderPainted(false);
+        jButton15_14.setBackground(new java.awt.Color(0, 153, 153));
+        jButton15_14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton15_14.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton15_15.setBackground(new java.awt.Color(0, 102, 102));
-        jButton15_15.setBorder(null);
-        jButton15_15.setBorderPainted(false);
+        jButton15_15.setBackground(new java.awt.Color(0, 153, 153));
+        jButton15_15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton15_15.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton15_16.setBackground(new java.awt.Color(0, 102, 102));
-        jButton15_16.setBorder(null);
-        jButton15_16.setBorderPainted(false);
+        jButton15_16.setBackground(new java.awt.Color(0, 153, 153));
+        jButton15_16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton15_16.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton15_17.setBackground(new java.awt.Color(0, 102, 102));
-        jButton15_17.setBorder(null);
-        jButton15_17.setBorderPainted(false);
+        jButton15_17.setBackground(new java.awt.Color(0, 153, 153));
+        jButton15_17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton15_17.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton15_18.setBackground(new java.awt.Color(0, 102, 102));
-        jButton15_18.setBorder(null);
-        jButton15_18.setBorderPainted(false);
+        jButton15_18.setBackground(new java.awt.Color(0, 153, 153));
+        jButton15_18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton15_18.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton15_19.setBackground(new java.awt.Color(0, 102, 102));
-        jButton15_19.setBorder(null);
-        jButton15_19.setBorderPainted(false);
+        jButton15_19.setBackground(new java.awt.Color(0, 153, 153));
+        jButton15_19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton15_19.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton15_20.setBackground(new java.awt.Color(0, 102, 102));
-        jButton15_20.setBorder(null);
-        jButton15_20.setBorderPainted(false);
+        jButton15_20.setBackground(new java.awt.Color(0, 153, 153));
+        jButton15_20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton15_20.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton16_1.setBackground(new java.awt.Color(0, 102, 102));
-        jButton16_1.setBorder(null);
-        jButton16_1.setBorderPainted(false);
+        jButton16_1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton16_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton16_1.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton16_2.setBackground(new java.awt.Color(0, 102, 102));
-        jButton16_2.setBorder(null);
-        jButton16_2.setBorderPainted(false);
+        jButton16_2.setBackground(new java.awt.Color(0, 153, 153));
+        jButton16_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton16_2.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton16_3.setBackground(new java.awt.Color(0, 102, 102));
-        jButton16_3.setBorder(null);
-        jButton16_3.setBorderPainted(false);
+        jButton16_3.setBackground(new java.awt.Color(0, 153, 153));
+        jButton16_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton16_3.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton16_4.setBackground(new java.awt.Color(0, 102, 102));
-        jButton16_4.setBorder(null);
-        jButton16_4.setBorderPainted(false);
+        jButton16_4.setBackground(new java.awt.Color(0, 153, 153));
+        jButton16_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton16_4.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton16_5.setBackground(new java.awt.Color(0, 102, 102));
-        jButton16_5.setBorder(null);
-        jButton16_5.setBorderPainted(false);
+        jButton16_5.setBackground(new java.awt.Color(0, 153, 153));
+        jButton16_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton16_5.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton16_6.setBackground(new java.awt.Color(0, 102, 102));
-        jButton16_6.setBorder(null);
-        jButton16_6.setBorderPainted(false);
+        jButton16_6.setBackground(new java.awt.Color(0, 153, 153));
+        jButton16_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton16_6.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton16_7.setBackground(new java.awt.Color(0, 102, 102));
-        jButton16_7.setBorder(null);
-        jButton16_7.setBorderPainted(false);
+        jButton16_7.setBackground(new java.awt.Color(0, 153, 153));
+        jButton16_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton16_7.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton16_8.setBackground(new java.awt.Color(0, 102, 102));
-        jButton16_8.setBorder(null);
-        jButton16_8.setBorderPainted(false);
+        jButton16_8.setBackground(new java.awt.Color(0, 153, 153));
+        jButton16_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton16_8.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton16_9.setBackground(new java.awt.Color(0, 102, 102));
-        jButton16_9.setBorder(null);
-        jButton16_9.setBorderPainted(false);
+        jButton16_9.setBackground(new java.awt.Color(0, 153, 153));
+        jButton16_9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton16_9.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton16_10.setBackground(new java.awt.Color(0, 102, 102));
-        jButton16_10.setBorder(null);
-        jButton16_10.setBorderPainted(false);
+        jButton16_10.setBackground(new java.awt.Color(0, 153, 153));
+        jButton16_10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton16_10.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton16_11.setBackground(new java.awt.Color(0, 102, 102));
-        jButton16_11.setBorder(null);
-        jButton16_11.setBorderPainted(false);
+        jButton16_11.setBackground(new java.awt.Color(0, 153, 153));
+        jButton16_11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton16_11.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton16_12.setBackground(new java.awt.Color(0, 102, 102));
-        jButton16_12.setBorder(null);
-        jButton16_12.setBorderPainted(false);
+        jButton16_12.setBackground(new java.awt.Color(0, 153, 153));
+        jButton16_12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton16_12.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton16_13.setBackground(new java.awt.Color(0, 102, 102));
-        jButton16_13.setBorder(null);
-        jButton16_13.setBorderPainted(false);
+        jButton16_13.setBackground(new java.awt.Color(0, 153, 153));
+        jButton16_13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton16_13.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton16_14.setBackground(new java.awt.Color(0, 102, 102));
-        jButton16_14.setBorder(null);
-        jButton16_14.setBorderPainted(false);
+        jButton16_14.setBackground(new java.awt.Color(0, 153, 153));
+        jButton16_14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton16_14.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton16_15.setBackground(new java.awt.Color(0, 102, 102));
-        jButton16_15.setBorder(null);
-        jButton16_15.setBorderPainted(false);
+        jButton16_15.setBackground(new java.awt.Color(0, 153, 153));
+        jButton16_15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton16_15.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton16_16.setBackground(new java.awt.Color(0, 102, 102));
-        jButton16_16.setBorder(null);
-        jButton16_16.setBorderPainted(false);
+        jButton16_16.setBackground(new java.awt.Color(0, 153, 153));
+        jButton16_16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton16_16.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton16_17.setBackground(new java.awt.Color(0, 102, 102));
-        jButton16_17.setBorder(null);
-        jButton16_17.setBorderPainted(false);
+        jButton16_17.setBackground(new java.awt.Color(0, 153, 153));
+        jButton16_17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton16_17.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton16_18.setBackground(new java.awt.Color(0, 102, 102));
-        jButton16_18.setBorder(null);
-        jButton16_18.setBorderPainted(false);
+        jButton16_18.setBackground(new java.awt.Color(0, 153, 153));
+        jButton16_18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton16_18.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton16_19.setBackground(new java.awt.Color(0, 102, 102));
-        jButton16_19.setBorder(null);
-        jButton16_19.setBorderPainted(false);
+        jButton16_19.setBackground(new java.awt.Color(0, 153, 153));
+        jButton16_19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton16_19.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton16_20.setBackground(new java.awt.Color(0, 102, 102));
-        jButton16_20.setBorder(null);
-        jButton16_20.setBorderPainted(false);
+        jButton16_20.setBackground(new java.awt.Color(0, 153, 153));
+        jButton16_20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton16_20.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton17_1.setBackground(new java.awt.Color(0, 102, 102));
-        jButton17_1.setBorder(null);
-        jButton17_1.setBorderPainted(false);
+        jButton17_1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton17_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton17_1.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton17_2.setBackground(new java.awt.Color(0, 102, 102));
-        jButton17_2.setBorder(null);
-        jButton17_2.setBorderPainted(false);
+        jButton17_2.setBackground(new java.awt.Color(0, 153, 153));
+        jButton17_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton17_2.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton17_3.setBackground(new java.awt.Color(0, 102, 102));
-        jButton17_3.setBorder(null);
-        jButton17_3.setBorderPainted(false);
+        jButton17_3.setBackground(new java.awt.Color(0, 153, 153));
+        jButton17_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton17_3.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton17_4.setBackground(new java.awt.Color(0, 102, 102));
-        jButton17_4.setBorder(null);
-        jButton17_4.setBorderPainted(false);
+        jButton17_4.setBackground(new java.awt.Color(0, 153, 153));
+        jButton17_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton17_4.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton17_5.setBackground(new java.awt.Color(0, 102, 102));
-        jButton17_5.setBorder(null);
-        jButton17_5.setBorderPainted(false);
+        jButton17_5.setBackground(new java.awt.Color(0, 153, 153));
+        jButton17_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton17_5.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton17_6.setBackground(new java.awt.Color(0, 102, 102));
-        jButton17_6.setBorder(null);
-        jButton17_6.setBorderPainted(false);
+        jButton17_6.setBackground(new java.awt.Color(0, 153, 153));
+        jButton17_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton17_6.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton17_7.setBackground(new java.awt.Color(0, 102, 102));
-        jButton17_7.setBorder(null);
-        jButton17_7.setBorderPainted(false);
+        jButton17_7.setBackground(new java.awt.Color(0, 153, 153));
+        jButton17_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton17_7.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton17_8.setBackground(new java.awt.Color(0, 102, 102));
-        jButton17_8.setBorder(null);
-        jButton17_8.setBorderPainted(false);
+        jButton17_8.setBackground(new java.awt.Color(0, 153, 153));
+        jButton17_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton17_8.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton17_9.setBackground(new java.awt.Color(0, 102, 102));
-        jButton17_9.setBorder(null);
-        jButton17_9.setBorderPainted(false);
+        jButton17_9.setBackground(new java.awt.Color(0, 153, 153));
+        jButton17_9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton17_9.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton17_10.setBackground(new java.awt.Color(0, 102, 102));
-        jButton17_10.setBorder(null);
-        jButton17_10.setBorderPainted(false);
+        jButton17_10.setBackground(new java.awt.Color(0, 153, 153));
+        jButton17_10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton17_10.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton17_11.setBackground(new java.awt.Color(0, 102, 102));
-        jButton17_11.setBorder(null);
-        jButton17_11.setBorderPainted(false);
+        jButton17_11.setBackground(new java.awt.Color(0, 153, 153));
+        jButton17_11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton17_11.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton17_12.setBackground(new java.awt.Color(0, 102, 102));
-        jButton17_12.setBorder(null);
-        jButton17_12.setBorderPainted(false);
+        jButton17_12.setBackground(new java.awt.Color(0, 153, 153));
+        jButton17_12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton17_12.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton17_13.setBackground(new java.awt.Color(0, 102, 102));
-        jButton17_13.setBorder(null);
-        jButton17_13.setBorderPainted(false);
+        jButton17_13.setBackground(new java.awt.Color(0, 153, 153));
+        jButton17_13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton17_13.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton17_14.setBackground(new java.awt.Color(0, 102, 102));
-        jButton17_14.setBorder(null);
-        jButton17_14.setBorderPainted(false);
+        jButton17_14.setBackground(new java.awt.Color(0, 153, 153));
+        jButton17_14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton17_14.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton17_15.setBackground(new java.awt.Color(0, 102, 102));
-        jButton17_15.setBorder(null);
-        jButton17_15.setBorderPainted(false);
+        jButton17_15.setBackground(new java.awt.Color(0, 153, 153));
+        jButton17_15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton17_15.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton17_16.setBackground(new java.awt.Color(0, 102, 102));
-        jButton17_16.setBorder(null);
-        jButton17_16.setBorderPainted(false);
+        jButton17_16.setBackground(new java.awt.Color(0, 153, 153));
+        jButton17_16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton17_16.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton17_17.setBackground(new java.awt.Color(0, 102, 102));
-        jButton17_17.setBorder(null);
-        jButton17_17.setBorderPainted(false);
+        jButton17_17.setBackground(new java.awt.Color(0, 153, 153));
+        jButton17_17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton17_17.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton17_18.setBackground(new java.awt.Color(0, 102, 102));
-        jButton17_18.setBorder(null);
-        jButton17_18.setBorderPainted(false);
+        jButton17_18.setBackground(new java.awt.Color(0, 153, 153));
+        jButton17_18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton17_18.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton17_19.setBackground(new java.awt.Color(0, 102, 102));
-        jButton17_19.setBorder(null);
-        jButton17_19.setBorderPainted(false);
+        jButton17_19.setBackground(new java.awt.Color(0, 153, 153));
+        jButton17_19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton17_19.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton17_20.setBackground(new java.awt.Color(0, 102, 102));
-        jButton17_20.setBorder(null);
-        jButton17_20.setBorderPainted(false);
+        jButton17_20.setBackground(new java.awt.Color(0, 153, 153));
+        jButton17_20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton17_20.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton18_1.setBackground(new java.awt.Color(0, 102, 102));
-        jButton18_1.setBorder(null);
-        jButton18_1.setBorderPainted(false);
+        jButton18_1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton18_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton18_1.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton18_2.setBackground(new java.awt.Color(0, 102, 102));
-        jButton18_2.setBorder(null);
-        jButton18_2.setBorderPainted(false);
+        jButton18_2.setBackground(new java.awt.Color(0, 153, 153));
+        jButton18_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton18_2.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton18_3.setBackground(new java.awt.Color(0, 102, 102));
-        jButton18_3.setBorder(null);
-        jButton18_3.setBorderPainted(false);
+        jButton18_3.setBackground(new java.awt.Color(0, 153, 153));
+        jButton18_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton18_3.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton18_4.setBackground(new java.awt.Color(0, 102, 102));
-        jButton18_4.setBorder(null);
-        jButton18_4.setBorderPainted(false);
+        jButton18_4.setBackground(new java.awt.Color(0, 153, 153));
+        jButton18_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton18_4.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton18_5.setBackground(new java.awt.Color(0, 102, 102));
-        jButton18_5.setBorder(null);
-        jButton18_5.setBorderPainted(false);
+        jButton18_5.setBackground(new java.awt.Color(0, 153, 153));
+        jButton18_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton18_5.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton18_6.setBackground(new java.awt.Color(0, 102, 102));
-        jButton18_6.setBorder(null);
-        jButton18_6.setBorderPainted(false);
+        jButton18_6.setBackground(new java.awt.Color(0, 153, 153));
+        jButton18_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton18_6.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton18_7.setBackground(new java.awt.Color(0, 102, 102));
-        jButton18_7.setBorder(null);
-        jButton18_7.setBorderPainted(false);
+        jButton18_7.setBackground(new java.awt.Color(0, 153, 153));
+        jButton18_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton18_7.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton18_8.setBackground(new java.awt.Color(0, 102, 102));
-        jButton18_8.setBorder(null);
-        jButton18_8.setBorderPainted(false);
+        jButton18_8.setBackground(new java.awt.Color(0, 153, 153));
+        jButton18_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton18_8.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton18_9.setBackground(new java.awt.Color(0, 102, 102));
-        jButton18_9.setBorder(null);
-        jButton18_9.setBorderPainted(false);
+        jButton18_9.setBackground(new java.awt.Color(0, 153, 153));
+        jButton18_9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton18_9.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton18_10.setBackground(new java.awt.Color(0, 102, 102));
-        jButton18_10.setBorder(null);
-        jButton18_10.setBorderPainted(false);
+        jButton18_10.setBackground(new java.awt.Color(0, 153, 153));
+        jButton18_10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton18_10.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton18_11.setBackground(new java.awt.Color(0, 102, 102));
-        jButton18_11.setBorder(null);
-        jButton18_11.setBorderPainted(false);
+        jButton18_11.setBackground(new java.awt.Color(0, 153, 153));
+        jButton18_11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton18_11.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton18_12.setBackground(new java.awt.Color(0, 102, 102));
-        jButton18_12.setBorder(null);
-        jButton18_12.setBorderPainted(false);
+        jButton18_12.setBackground(new java.awt.Color(0, 153, 153));
+        jButton18_12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton18_12.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton18_13.setBackground(new java.awt.Color(0, 102, 102));
-        jButton18_13.setBorder(null);
-        jButton18_13.setBorderPainted(false);
+        jButton18_13.setBackground(new java.awt.Color(0, 153, 153));
+        jButton18_13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton18_13.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton18_14.setBackground(new java.awt.Color(0, 102, 102));
-        jButton18_14.setBorder(null);
-        jButton18_14.setBorderPainted(false);
+        jButton18_14.setBackground(new java.awt.Color(0, 153, 153));
+        jButton18_14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton18_14.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton18_15.setBackground(new java.awt.Color(0, 102, 102));
-        jButton18_15.setBorder(null);
-        jButton18_15.setBorderPainted(false);
+        jButton18_15.setBackground(new java.awt.Color(0, 153, 153));
+        jButton18_15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton18_15.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton18_16.setBackground(new java.awt.Color(0, 102, 102));
-        jButton18_16.setBorder(null);
-        jButton18_16.setBorderPainted(false);
+        jButton18_16.setBackground(new java.awt.Color(0, 153, 153));
+        jButton18_16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton18_16.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton18_17.setBackground(new java.awt.Color(0, 102, 102));
-        jButton18_17.setBorder(null);
-        jButton18_17.setBorderPainted(false);
+        jButton18_17.setBackground(new java.awt.Color(0, 153, 153));
+        jButton18_17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton18_17.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton18_18.setBackground(new java.awt.Color(0, 102, 102));
-        jButton18_18.setBorder(null);
-        jButton18_18.setBorderPainted(false);
+        jButton18_18.setBackground(new java.awt.Color(0, 153, 153));
+        jButton18_18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton18_18.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton18_19.setBackground(new java.awt.Color(0, 102, 102));
-        jButton18_19.setBorder(null);
-        jButton18_19.setBorderPainted(false);
+        jButton18_19.setBackground(new java.awt.Color(0, 153, 153));
+        jButton18_19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton18_19.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton18_20.setBackground(new java.awt.Color(0, 102, 102));
-        jButton18_20.setBorder(null);
-        jButton18_20.setBorderPainted(false);
+        jButton18_20.setBackground(new java.awt.Color(0, 153, 153));
+        jButton18_20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton18_20.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton19_1.setBackground(new java.awt.Color(0, 102, 102));
-        jButton19_1.setBorder(null);
-        jButton19_1.setBorderPainted(false);
+        jButton19_1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton19_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton19_1.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton19_2.setBackground(new java.awt.Color(0, 102, 102));
-        jButton19_2.setBorder(null);
-        jButton19_2.setBorderPainted(false);
+        jButton19_2.setBackground(new java.awt.Color(0, 153, 153));
+        jButton19_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton19_2.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton19_3.setBackground(new java.awt.Color(0, 102, 102));
-        jButton19_3.setBorder(null);
-        jButton19_3.setBorderPainted(false);
+        jButton19_3.setBackground(new java.awt.Color(0, 153, 153));
+        jButton19_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton19_3.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton19_4.setBackground(new java.awt.Color(0, 102, 102));
-        jButton19_4.setBorder(null);
-        jButton19_4.setBorderPainted(false);
+        jButton19_4.setBackground(new java.awt.Color(0, 153, 153));
+        jButton19_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton19_4.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton19_5.setBackground(new java.awt.Color(0, 102, 102));
-        jButton19_5.setBorder(null);
-        jButton19_5.setBorderPainted(false);
+        jButton19_5.setBackground(new java.awt.Color(0, 153, 153));
+        jButton19_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton19_5.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton19_6.setBackground(new java.awt.Color(0, 102, 102));
-        jButton19_6.setBorder(null);
-        jButton19_6.setBorderPainted(false);
+        jButton19_6.setBackground(new java.awt.Color(0, 153, 153));
+        jButton19_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton19_6.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton19_7.setBackground(new java.awt.Color(0, 102, 102));
-        jButton19_7.setBorder(null);
-        jButton19_7.setBorderPainted(false);
+        jButton19_7.setBackground(new java.awt.Color(0, 153, 153));
+        jButton19_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton19_7.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton19_8.setBackground(new java.awt.Color(0, 102, 102));
-        jButton19_8.setBorder(null);
-        jButton19_8.setBorderPainted(false);
+        jButton19_8.setBackground(new java.awt.Color(0, 153, 153));
+        jButton19_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton19_8.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton19_9.setBackground(new java.awt.Color(0, 102, 102));
-        jButton19_9.setBorder(null);
-        jButton19_9.setBorderPainted(false);
+        jButton19_9.setBackground(new java.awt.Color(0, 153, 153));
+        jButton19_9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton19_9.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton19_10.setBackground(new java.awt.Color(0, 102, 102));
-        jButton19_10.setBorder(null);
-        jButton19_10.setBorderPainted(false);
+        jButton19_10.setBackground(new java.awt.Color(0, 153, 153));
+        jButton19_10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton19_10.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton19_11.setBackground(new java.awt.Color(0, 102, 102));
-        jButton19_11.setBorder(null);
-        jButton19_11.setBorderPainted(false);
+        jButton19_11.setBackground(new java.awt.Color(0, 153, 153));
+        jButton19_11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton19_11.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton19_12.setBackground(new java.awt.Color(0, 102, 102));
-        jButton19_12.setBorder(null);
-        jButton19_12.setBorderPainted(false);
+        jButton19_12.setBackground(new java.awt.Color(0, 153, 153));
+        jButton19_12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton19_12.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton19_13.setBackground(new java.awt.Color(0, 102, 102));
-        jButton19_13.setBorder(null);
-        jButton19_13.setBorderPainted(false);
+        jButton19_13.setBackground(new java.awt.Color(0, 153, 153));
+        jButton19_13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton19_13.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton19_14.setBackground(new java.awt.Color(0, 102, 102));
-        jButton19_14.setBorder(null);
-        jButton19_14.setBorderPainted(false);
+        jButton19_14.setBackground(new java.awt.Color(0, 153, 153));
+        jButton19_14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton19_14.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton19_15.setBackground(new java.awt.Color(0, 102, 102));
-        jButton19_15.setBorder(null);
-        jButton19_15.setBorderPainted(false);
+        jButton19_15.setBackground(new java.awt.Color(0, 153, 153));
+        jButton19_15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton19_15.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton19_16.setBackground(new java.awt.Color(0, 102, 102));
-        jButton19_16.setBorder(null);
-        jButton19_16.setBorderPainted(false);
+        jButton19_16.setBackground(new java.awt.Color(0, 153, 153));
+        jButton19_16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton19_16.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton19_17.setBackground(new java.awt.Color(0, 102, 102));
-        jButton19_17.setBorder(null);
-        jButton19_17.setBorderPainted(false);
+        jButton19_17.setBackground(new java.awt.Color(0, 153, 153));
+        jButton19_17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton19_17.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton19_18.setBackground(new java.awt.Color(0, 102, 102));
-        jButton19_18.setBorder(null);
-        jButton19_18.setBorderPainted(false);
+        jButton19_18.setBackground(new java.awt.Color(0, 153, 153));
+        jButton19_18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton19_18.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton19_19.setBackground(new java.awt.Color(0, 102, 102));
-        jButton19_19.setBorder(null);
-        jButton19_19.setBorderPainted(false);
+        jButton19_19.setBackground(new java.awt.Color(0, 153, 153));
+        jButton19_19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton19_19.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton19_20.setBackground(new java.awt.Color(0, 102, 102));
-        jButton19_20.setBorder(null);
-        jButton19_20.setBorderPainted(false);
+        jButton19_20.setBackground(new java.awt.Color(0, 153, 153));
+        jButton19_20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton19_20.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton20_1.setBackground(new java.awt.Color(0, 102, 102));
-        jButton20_1.setBorder(null);
-        jButton20_1.setBorderPainted(false);
+        jButton20_1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton20_1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton20_1.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton20_2.setBackground(new java.awt.Color(0, 102, 102));
-        jButton20_2.setBorder(null);
-        jButton20_2.setBorderPainted(false);
+        jButton20_2.setBackground(new java.awt.Color(0, 153, 153));
+        jButton20_2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton20_2.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton20_3.setBackground(new java.awt.Color(0, 102, 102));
-        jButton20_3.setBorder(null);
-        jButton20_3.setBorderPainted(false);
+        jButton20_3.setBackground(new java.awt.Color(0, 153, 153));
+        jButton20_3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton20_3.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton20_4.setBackground(new java.awt.Color(0, 102, 102));
-        jButton20_4.setBorder(null);
-        jButton20_4.setBorderPainted(false);
+        jButton20_4.setBackground(new java.awt.Color(0, 153, 153));
+        jButton20_4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton20_4.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton20_5.setBackground(new java.awt.Color(0, 102, 102));
-        jButton20_5.setBorder(null);
-        jButton20_5.setBorderPainted(false);
+        jButton20_5.setBackground(new java.awt.Color(0, 153, 153));
+        jButton20_5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton20_5.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton20_6.setBackground(new java.awt.Color(0, 102, 102));
-        jButton20_6.setBorder(null);
-        jButton20_6.setBorderPainted(false);
+        jButton20_6.setBackground(new java.awt.Color(0, 153, 153));
+        jButton20_6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton20_6.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton20_7.setBackground(new java.awt.Color(0, 102, 102));
-        jButton20_7.setBorder(null);
-        jButton20_7.setBorderPainted(false);
+        jButton20_7.setBackground(new java.awt.Color(0, 153, 153));
+        jButton20_7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton20_7.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton20_8.setBackground(new java.awt.Color(0, 102, 102));
-        jButton20_8.setBorder(null);
-        jButton20_8.setBorderPainted(false);
+        jButton20_8.setBackground(new java.awt.Color(0, 153, 153));
+        jButton20_8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton20_8.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton20_9.setBackground(new java.awt.Color(0, 102, 102));
-        jButton20_9.setBorder(null);
-        jButton20_9.setBorderPainted(false);
+        jButton20_9.setBackground(new java.awt.Color(0, 153, 153));
+        jButton20_9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton20_9.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton20_10.setBackground(new java.awt.Color(0, 102, 102));
-        jButton20_10.setBorder(null);
-        jButton20_10.setBorderPainted(false);
+        jButton20_10.setBackground(new java.awt.Color(0, 153, 153));
+        jButton20_10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton20_10.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton20_11.setBackground(new java.awt.Color(0, 102, 102));
-        jButton20_11.setBorder(null);
-        jButton20_11.setBorderPainted(false);
+        jButton20_11.setBackground(new java.awt.Color(0, 153, 153));
+        jButton20_11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton20_11.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton20_12.setBackground(new java.awt.Color(0, 102, 102));
-        jButton20_12.setBorder(null);
-        jButton20_12.setBorderPainted(false);
+        jButton20_12.setBackground(new java.awt.Color(0, 153, 153));
+        jButton20_12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton20_12.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton20_13.setBackground(new java.awt.Color(0, 102, 102));
-        jButton20_13.setBorder(null);
-        jButton20_13.setBorderPainted(false);
+        jButton20_13.setBackground(new java.awt.Color(0, 153, 153));
+        jButton20_13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton20_13.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton20_14.setBackground(new java.awt.Color(0, 102, 102));
-        jButton20_14.setBorder(null);
-        jButton20_14.setBorderPainted(false);
+        jButton20_14.setBackground(new java.awt.Color(0, 153, 153));
+        jButton20_14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton20_14.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton20_15.setBackground(new java.awt.Color(0, 102, 102));
-        jButton20_15.setBorder(null);
-        jButton20_15.setBorderPainted(false);
+        jButton20_15.setBackground(new java.awt.Color(0, 153, 153));
+        jButton20_15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton20_15.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton20_16.setBackground(new java.awt.Color(0, 102, 102));
-        jButton20_16.setBorder(null);
-        jButton20_16.setBorderPainted(false);
+        jButton20_16.setBackground(new java.awt.Color(0, 153, 153));
+        jButton20_16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton20_16.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton20_17.setBackground(new java.awt.Color(0, 102, 102));
-        jButton20_17.setBorder(null);
-        jButton20_17.setBorderPainted(false);
+        jButton20_17.setBackground(new java.awt.Color(0, 153, 153));
+        jButton20_17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton20_17.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton20_18.setBackground(new java.awt.Color(0, 102, 102));
-        jButton20_18.setBorder(null);
-        jButton20_18.setBorderPainted(false);
+        jButton20_18.setBackground(new java.awt.Color(0, 153, 153));
+        jButton20_18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton20_18.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton20_19.setBackground(new java.awt.Color(0, 102, 102));
-        jButton20_19.setBorder(null);
-        jButton20_19.setBorderPainted(false);
+        jButton20_19.setBackground(new java.awt.Color(0, 153, 153));
+        jButton20_19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton20_19.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
-        jButton20_20.setBackground(new java.awt.Color(0, 102, 102));
-        jButton20_20.setBorder(null);
-        jButton20_20.setBorderPainted(false);
+        jButton20_20.setBackground(new java.awt.Color(0, 153, 153));
+        jButton20_20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton20_20.setMargin(new java.awt.Insets(2, 10, 2, 10));
 
         jButtonSairTab.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 18)); // NOI18N
@@ -2578,7 +2178,7 @@ public class Tabuleiro extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("2  Porta-Aviões");
 
-        jPanel5.setBackground(java.awt.Color.cyan);
+        jPanel5.setBackground(java.awt.Color.pink);
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -3924,32 +3524,31 @@ public class Tabuleiro extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(116, 116, 116)
                         .addComponent(jLabelLegenda, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGap(8, 8, 8)
                                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGap(8, 8, 8)
                                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGap(8, 8, 8)
                                 .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(28, Short.MAX_VALUE))
         );
 
