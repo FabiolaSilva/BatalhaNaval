@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author apple
+ * @author appleOLA
  */
 public class Submarino extends Navio{
     public int bonus;
