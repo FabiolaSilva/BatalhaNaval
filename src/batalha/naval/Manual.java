@@ -72,31 +72,31 @@ public class Manual extends javax.swing.JFrame {
         jLabelM1.setFont(new java.awt.Font("Tekton Pro Cond", 0, 18)); // NOI18N
         jLabelM1.setForeground(new java.awt.Color(255, 255, 255));
         jLabelM1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabelM1.setText("- O jogo tem como objetivo afundar todos os navios militares dentro do limite de tiros fornecidos.");
+        jLabelM1.setText("- O jogo tem como objetivo afundar todos os Navios Militares dentro do limite de tiros fornecidos.");
         jLabelM1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
         jLabelM2.setFont(new java.awt.Font("Tekton Pro Cond", 0, 18)); // NOI18N
         jLabelM2.setForeground(new java.awt.Color(255, 255, 255));
         jLabelM2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabelM2.setText("- Se afundar qualquer um dos navios civis, perde o jogo de imediato.");
+        jLabelM2.setText("- Existem 2 tipos de Navios Civis: Paquete e Porta-Contentores.");
         jLabelM2.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
         jLabelM3.setFont(new java.awt.Font("Tekton Pro Cond", 0, 18)); // NOI18N
         jLabelM3.setForeground(new java.awt.Color(255, 255, 255));
         jLabelM3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabelM3.setText("- Existem 3 tipos de navios militares: Submarinos, Cruzadores e Porta-Aviões.");
+        jLabelM3.setText("- Existem 3 tipos de Navios Militares: Submarinos, Cruzadores e Porta-Aviões.");
         jLabelM3.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
         jLabelM4.setFont(new java.awt.Font("Tekton Pro Cond", 0, 18)); // NOI18N
         jLabelM4.setForeground(new java.awt.Color(255, 255, 255));
         jLabelM4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabelM4.setText("- Existem 2 tipos de navios civis: Paquete e Porta-Contentores.");
+        jLabelM4.setText("- Se afundar qualquer um dos Navios Civis, perde o jogo de imediato!");
         jLabelM4.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
         jLabelM5.setFont(new java.awt.Font("Tekton Pro Cond", 0, 18)); // NOI18N
         jLabelM5.setForeground(new java.awt.Color(255, 255, 255));
         jLabelM5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabelM5.setText("- Todos os navios têm representações diferentes de tamanho, cor e formato. ");
+        jLabelM5.setText("- Cada tipo de navio tem uma representação diferente, em tamanho, cor e formato. ");
         jLabelM5.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
         jLabelM6.setFont(new java.awt.Font("Tekton Pro Cond", 0, 18)); // NOI18N
@@ -132,7 +132,7 @@ public class Manual extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGap(15, 15, 15)
                 .addComponent(jLabelManual)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(18, 18, 18)
                 .addComponent(jLabelM1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabelM2)
@@ -144,7 +144,7 @@ public class Manual extends javax.swing.JFrame {
                 .addComponent(jLabelM5)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabelM6)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 38, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 31, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButtonVoltar, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButtonJogarMan, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
