@@ -160,7 +160,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="2"/>
-            <Property name="text" type="java.lang.String" value="- O jogo tem como objetivo afundar todos os navios militares dentro do limite de tiros fornecidos."/>
+            <Property name="text" type="java.lang.String" value="- Se afundar qualquer um dos navios civis, perde o jogo de imediato."/>
             <Property name="verticalAlignment" type="int" value="1"/>
           </Properties>
         </Component>
@@ -173,7 +173,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="2"/>
-            <Property name="text" type="java.lang.String" value="- O jogo tem como objetivo afundar todos os navios militares dentro do limite de tiros fornecidos."/>
+            <Property name="text" type="java.lang.String" value="- Existem 3 tipos de navios militares: Submarinos, Cruzadores e Porta-Avi&#xf5;es."/>
             <Property name="verticalAlignment" type="int" value="1"/>
           </Properties>
         </Component>
@@ -186,7 +186,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="2"/>
-            <Property name="text" type="java.lang.String" value="- O jogo tem como objetivo afundar todos os navios militares dentro do limite de tiros fornecidos."/>
+            <Property name="text" type="java.lang.String" value="- Existem 2 tipos de navios civis: Paquete e Porta-Contentores."/>
             <Property name="verticalAlignment" type="int" value="1"/>
           </Properties>
         </Component>
@@ -199,7 +199,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="2"/>
-            <Property name="text" type="java.lang.String" value="- O jogo tem como objetivo afundar todos os navios militares dentro do limite de tiros fornecidos."/>
+            <Property name="text" type="java.lang.String" value="- Todos os navios t&#xea;m representa&#xe7;&#xf5;es diferentes de tamanho, cor e formato. "/>
             <Property name="verticalAlignment" type="int" value="1"/>
           </Properties>
         </Component>
@@ -212,7 +212,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="2"/>
-            <Property name="text" type="java.lang.String" value="- O jogo tem como objetivo afundar todos os navios militares dentro do limite de tiros fornecidos."/>
+            <Property name="text" type="java.lang.String" value="- Ganha pontos por cada tiro certeiro mas perde pontos de cada vez que atingir um navio civil."/>
             <Property name="verticalAlignment" type="int" value="1"/>
           </Properties>
         </Component>

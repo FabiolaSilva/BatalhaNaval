@@ -78,31 +78,31 @@ public class Manual extends javax.swing.JFrame {
         jLabelM2.setFont(new java.awt.Font("Tekton Pro Cond", 0, 18)); // NOI18N
         jLabelM2.setForeground(new java.awt.Color(255, 255, 255));
         jLabelM2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabelM2.setText("- O jogo tem como objetivo afundar todos os navios militares dentro do limite de tiros fornecidos.");
+        jLabelM2.setText("- Se afundar qualquer um dos navios civis, perde o jogo de imediato.");
         jLabelM2.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
         jLabelM3.setFont(new java.awt.Font("Tekton Pro Cond", 0, 18)); // NOI18N
         jLabelM3.setForeground(new java.awt.Color(255, 255, 255));
         jLabelM3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabelM3.setText("- O jogo tem como objetivo afundar todos os navios militares dentro do limite de tiros fornecidos.");
+        jLabelM3.setText("- Existem 3 tipos de navios militares: Submarinos, Cruzadores e Porta-Aviões.");
         jLabelM3.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
         jLabelM4.setFont(new java.awt.Font("Tekton Pro Cond", 0, 18)); // NOI18N
         jLabelM4.setForeground(new java.awt.Color(255, 255, 255));
         jLabelM4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabelM4.setText("- O jogo tem como objetivo afundar todos os navios militares dentro do limite de tiros fornecidos.");
+        jLabelM4.setText("- Existem 2 tipos de navios civis: Paquete e Porta-Contentores.");
         jLabelM4.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
         jLabelM5.setFont(new java.awt.Font("Tekton Pro Cond", 0, 18)); // NOI18N
         jLabelM5.setForeground(new java.awt.Color(255, 255, 255));
         jLabelM5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabelM5.setText("- O jogo tem como objetivo afundar todos os navios militares dentro do limite de tiros fornecidos.");
+        jLabelM5.setText("- Todos os navios têm representações diferentes de tamanho, cor e formato. ");
         jLabelM5.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
         jLabelM6.setFont(new java.awt.Font("Tekton Pro Cond", 0, 18)); // NOI18N
         jLabelM6.setForeground(new java.awt.Color(255, 255, 255));
         jLabelM6.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabelM6.setText("- O jogo tem como objetivo afundar todos os navios militares dentro do limite de tiros fornecidos.");
+        jLabelM6.setText("- Ganha pontos por cada tiro certeiro mas perde pontos de cada vez que atingir um navio civil.");
         jLabelM6.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
