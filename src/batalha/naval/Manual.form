@@ -199,7 +199,7 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="2"/>
-            <Property name="text" type="java.lang.String" value="- Cada tipo de navio tem uma representa&#xe7;&#xe3;o diferente, em tamanho, cor e formato. "/>
+            <Property name="text" type="java.lang.String" value="- Cada tipo de navio tem uma representa&#xe7;&#xe3;o diferente em tamanho, cor e formato. "/>
             <Property name="verticalAlignment" type="int" value="1"/>
           </Properties>
         </Component>
