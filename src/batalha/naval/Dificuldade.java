@@ -6,9 +6,11 @@
 package batalha.naval;
 
 import Model.Jogador;
+import java.awt.Component;
 import java.awt.Toolkit;
 import java.awt.event.WindowEvent;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -151,10 +153,20 @@ public class Dificuldade extends javax.swing.JFrame {
 
     private void jButtonFacilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonFacilActionPerformed
         // TODO add your handling code here:
-       
-        close();
-        Pre_Tabuleiro f = new Pre_Tabuleiro(jogador, 1);
-        f.setVisible(true);
+        String nome = "";
+        nome = jTextFieldNome.getText();
+        if(!nome.isEmpty()){     
+            jogador.setNome(nome);
+        
+            close();
+            Pre_Tabuleiro f = new Pre_Tabuleiro(jogador, 1);
+            f.setVisible(true);
+        } else{
+            JOptionPane.showMessageDialog(rootPane,
+                "Por favor insira um nome para continuar.",
+                "Aviso",
+                JOptionPane.WARNING_MESSAGE);
+        }
         
     }//GEN-LAST:event_jButtonFacilActionPerformed
 
@@ -175,7 +187,7 @@ public class Dificuldade extends javax.swing.JFrame {
 
     private void jTextFieldNomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldNomeActionPerformed
         // TODO add your handling code here:
-       String nome = jTextFieldNome.getText();
+       
         
     }//GEN-LAST:event_jTextFieldNomeActionPerformed
 

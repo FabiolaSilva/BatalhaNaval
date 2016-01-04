@@ -365,6 +365,7 @@ public class Cenario {
                         if(x == array[0] && y == array[1]){
                             navioColocado.adicionaPosicoesAtingidas(x, y);
                             penalizacaoCivil(navioColocado); // penaliza por acertar num navio civil
+                            darBonusSeMilitarAfundado(navioColocado);
                             nTirosDados++;
                             return navioColocado;
                         } 
@@ -441,7 +442,6 @@ public class Cenario {
             
                 if(afundTemp){
                     nMilAfundados++;
-                    darBonus(navioColocado); //dá bónus por afundar navio militar
                 }
             }
         }
@@ -531,6 +531,14 @@ public class Cenario {
 
     public void setNivel(int nivel) {
         this.nivel = nivel;
+    }
+
+    private void darBonusSeMilitarAfundado(Navio navioColocado) {
+        if(navioColocado.getMilitar()){
+            if(navioColocado.getAfundado()){
+                darBonus(navioColocado);
+            }
+        }
     }
     
     

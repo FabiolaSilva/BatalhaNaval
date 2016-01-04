@@ -20,6 +20,7 @@ public class Tabuleiro extends javax.swing.JFrame {
     Jogador jogador = new Jogador();
     Cenario cenario = null;
     int nivel = 0;
+    Color corPorDefeito = null;
 
     /**
      * Creates new form Tabuleiro
@@ -31,7 +32,10 @@ public class Tabuleiro extends javax.swing.JFrame {
         cenario.setNivel(nivel);
         cenario.gerarCenario();
         initComponents();
+        setLabels(nivel);
+        corPorDefeito = jButton1_1.getBackground();
     }
+   
 
     private Tabuleiro() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
@@ -7817,22 +7821,50 @@ public class Tabuleiro extends javax.swing.JFrame {
     // End of variables declaration//GEN-END:variables
 
     private void metodoBotao(int x, int y, JButton btn) {
-        Navio navio = cenario.checkTiro(x, y);
-        if(navio == null){
-            btn.setBorder(null);
-        } else {
-            if(navio.getTipo() == "sub"){
-                btn.setBackground(Color.RED);
-            } else if(navio.getTipo() == "cruz"){
-                btn.setBackground(Color.YELLOW);
-            } else if(navio.getTipo() == "pAvioes"){
-                btn.setBackground(Color.MAGENTA);
-            } else if(navio.getTipo() == "paquete"){
-                btn.setBackground(Color.PINK);
-            } else if(navio.getTipo() == "pContentores"){
-                btn.setBackground(Color.GREEN);
+        Color c = new Color(0,153,153);
+        Color d = btn.getBackground();
+        if((d.equals(c))){
+            if(btn.getBorder() != null){
+                Navio navio = cenario.checkTiro(x, y);
+                jLabelNumTiros.setText(String.valueOf(cenario.nJogadasRest()));     
+                if(navio == null){
+                    btn.setBorder(null);
+                } else {
+                    if(navio.getTipo() == "sub"){
+                        btn.setBackground(Color.RED);
+                    } else if(navio.getTipo() == "cruz"){
+                        btn.setBackground(Color.YELLOW);
+                    } else if(navio.getTipo() == "pAvioes"){
+                        btn.setBackground(Color.MAGENTA);
+                    } else if(navio.getTipo() == "paquete"){
+                        btn.setBackground(Color.PINK);
+                    } else if(navio.getTipo() == "pContentores"){
+                        btn.setBackground(Color.GREEN);
+                    }
+                }        
+                cenario.terminarJogo();
+                jLabelPontos.setText(String.valueOf(jogador.getPontuacao()));
             }
-        }        
-        cenario.terminarJogo();
+            
+        }
+        
+        
+    }
+    
+    private void setLabels(int nivel){
+        jLabelNumTiros.setText(String.valueOf(cenario.nJogadasRest()));
+        if(nivel == 1){
+            jLabelDif.setText("Fácil");
+        }
+        if(nivel == 2){
+            jLabelDif.setText("Médio");
+        }
+        if(nivel == 3){
+            jLabelDif.setText("Difícil");
+        }
+        jLabelJogador1.setText(jogador.getNome());
+        jLabelPontos.setText(String.valueOf(jogador.getPontuacao()));
+        
+        
     }
 }
