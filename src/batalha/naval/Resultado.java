@@ -5,19 +5,29 @@
  */
 package bnaval;
 
+import batalha.naval.BemVindo;
+import batalha.naval.Dificuldade;
+import java.awt.Toolkit;
+import java.awt.event.WindowEvent;
+
 /**
  *
  * @author Cat
  */
-public class Rank extends javax.swing.JFrame {
+public class Resultado extends javax.swing.JFrame {
 
     /**
      * Creates new form Rank
      */
-    public Rank() {
+    public Resultado() {
         initComponents();
     }
 
+     public void close(){
+        WindowEvent winClosingEvent = new WindowEvent(this, WindowEvent. WINDOW_CLOSING);
+        Toolkit.getDefaultToolkit().getSystemEventQueue().postEvent(winClosingEvent);
+    }
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -29,7 +39,7 @@ public class Rank extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jLabelGameOver = new javax.swing.JLabel();
-        jLabelRanking = new javax.swing.JLabel();
+        jLabelMotivo = new javax.swing.JLabel();
         jButtonNovoJogo = new javax.swing.JButton();
         jButtonSairRank = new javax.swing.JButton();
 
@@ -40,30 +50,40 @@ public class Rank extends javax.swing.JFrame {
         jLabelGameOver.setFont(new java.awt.Font("Tekton Pro Cond", 1, 46)); // NOI18N
         jLabelGameOver.setForeground(new java.awt.Color(255, 255, 255));
         jLabelGameOver.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabelGameOver.setText("Ganhou !  (ou não)");
+        jLabelGameOver.setText("(ganhou ou não)");
 
-        jLabelRanking.setFont(new java.awt.Font("Tekton Pro Cond", 1, 24)); // NOI18N
-        jLabelRanking.setForeground(new java.awt.Color(255, 255, 255));
-        jLabelRanking.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabelRanking.setText("Ranking");
-        jLabelRanking.setVerticalAlignment(javax.swing.SwingConstants.TOP);
+        jLabelMotivo.setFont(new java.awt.Font("Tekton Pro Cond", 1, 24)); // NOI18N
+        jLabelMotivo.setForeground(new java.awt.Color(255, 255, 255));
+        jLabelMotivo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabelMotivo.setText("(Motivo)");
+        jLabelMotivo.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
         jButtonNovoJogo.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 18)); // NOI18N
         jButtonNovoJogo.setText("Novo Jogo");
         jButtonNovoJogo.setBorder(javax.swing.BorderFactory.createCompoundBorder());
+        jButtonNovoJogo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonNovoJogoActionPerformed(evt);
+            }
+        });
 
         jButtonSairRank.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 18)); // NOI18N
         jButtonSairRank.setText("Sair");
         jButtonSairRank.setBorder(javax.swing.BorderFactory.createCompoundBorder());
+        jButtonSairRank.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonSairRankActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(25, 25, 25)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabelRanking, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabelMotivo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabelGameOver, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(10, 10, 10)
@@ -71,16 +91,16 @@ public class Rank extends javax.swing.JFrame {
                         .addGap(26, 26, 26)
                         .addComponent(jButtonSairRank, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 11, Short.MAX_VALUE)))
-                .addContainerGap())
+                .addGap(25, 25, 25))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(28, 28, 28)
+                .addGap(38, 38, 38)
                 .addComponent(jLabelGameOver)
                 .addGap(30, 30, 30)
-                .addComponent(jLabelRanking, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 11, Short.MAX_VALUE)
+                .addComponent(jLabelMotivo)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 52, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jButtonNovoJogo, javax.swing.GroupLayout.DEFAULT_SIZE, 40, Short.MAX_VALUE)
                     .addComponent(jButtonSairRank, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -101,6 +121,16 @@ public class Rank extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void jButtonSairRankActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSairRankActionPerformed
+        System.exit(0);
+    }//GEN-LAST:event_jButtonSairRankActionPerformed
+
+    private void jButtonNovoJogoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonNovoJogoActionPerformed
+        close();
+        BemVindo novojogo = new BemVindo();
+        novojogo.setVisible(true);
+    }//GEN-LAST:event_jButtonNovoJogoActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -118,20 +148,21 @@ public class Rank extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Rank.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Resultado.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Rank.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Resultado.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Rank.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Resultado.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Rank.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Resultado.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Rank().setVisible(true);
+                new Resultado().setVisible(true);
             }
         });
     }
@@ -140,7 +171,7 @@ public class Rank extends javax.swing.JFrame {
     private javax.swing.JButton jButtonNovoJogo;
     private javax.swing.JButton jButtonSairRank;
     private javax.swing.JLabel jLabelGameOver;
-    private javax.swing.JLabel jLabelRanking;
+    private javax.swing.JLabel jLabelMotivo;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
