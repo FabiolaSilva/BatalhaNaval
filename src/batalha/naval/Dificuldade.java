@@ -172,16 +172,39 @@ public class Dificuldade extends javax.swing.JFrame {
 
     private void jButtonMedioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonMedioActionPerformed
         // TODO add your handling code here:
-        close();
-        Pre_Tabuleiro m = new Pre_Tabuleiro(jogador, 2);
-        m.setVisible(true);
+        String nome = "";
+        nome = jTextFieldNome.getText();
+        if(!nome.isEmpty()){     
+            jogador.setNome(nome);
+        
+            close();
+            Pre_Tabuleiro m = new Pre_Tabuleiro(jogador, 2);
+            m.setVisible(true);
+        } else{
+            JOptionPane.showMessageDialog(rootPane,
+                "Por favor insira um nome para continuar.",
+                "Aviso",
+                JOptionPane.WARNING_MESSAGE);
+        }
+        
     }//GEN-LAST:event_jButtonMedioActionPerformed
 
     private void jButtonDificilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonDificilActionPerformed
         // TODO add your handling code here:
-        close();
-        Pre_Tabuleiro d = new Pre_Tabuleiro(jogador, 3);
-        d.setVisible(true);
+        String nome = "";
+        nome = jTextFieldNome.getText();
+        if(!nome.isEmpty()){     
+            jogador.setNome(nome);
+        
+            close();
+            Pre_Tabuleiro d = new Pre_Tabuleiro(jogador, 3);
+            d.setVisible(true);
+        } else{
+            JOptionPane.showMessageDialog(rootPane,
+                "Por favor insira um nome para continuar.",
+                "Aviso",
+                JOptionPane.WARNING_MESSAGE);
+        }    
 
     }//GEN-LAST:event_jButtonDificilActionPerformed
 

@@ -27,6 +27,7 @@ public class Pre_Tabuleiro extends javax.swing.JFrame {
         this.jogador = jogador;
         this.nivel = nivel;
         initComponents();
+        setLabels(nivel);
     }
 
     private Pre_Tabuleiro() {
@@ -194,4 +195,17 @@ public class Pre_Tabuleiro extends javax.swing.JFrame {
     private javax.swing.JLabel jLabelJogador;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
+
+    private void setLabels(int nivel) {
+        if(nivel == 1){
+            jLabelDif.setText("Fácil");
+        }
+        if(nivel == 2){
+            jLabelDif.setText("Médio");
+        }
+        if(nivel == 3){
+            jLabelDif.setText("Difícil");
+        }
+        jLabelJogador.setText(jogador.getNome());
+    }
 }

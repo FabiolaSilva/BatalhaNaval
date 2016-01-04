@@ -26,6 +26,7 @@ public class Tabuleiro_Resposta extends javax.swing.JFrame {
         this.nivel = nivel;
         this.jogador = jogador;
         initComponents();
+        setLabels(nivel);
     }
 
     private Tabuleiro_Resposta() {
@@ -256,4 +257,17 @@ public class Tabuleiro_Resposta extends javax.swing.JFrame {
     private javax.swing.JLabel jLabelTitulo;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
+
+    private void setLabels(int nivel) {
+        if(nivel == 1){
+            jLabelDif.setText("Fácil");
+        }
+        if(nivel == 2){
+            jLabelDif.setText("Médio");
+        }
+        if(nivel == 3){
+            jLabelDif.setText("Difícil");
+        }
+        jLabelJogador1.setText(jogador.getNome());
+    }
 }
