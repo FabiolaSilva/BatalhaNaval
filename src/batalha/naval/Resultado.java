@@ -3,8 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package bnaval;
+package batalha.naval;
 
+import Model.Cenario;
+import Model.Jogador;
 import batalha.naval.BemVindo;
 import batalha.naval.Dificuldade;
 import java.awt.Toolkit;
@@ -15,12 +17,22 @@ import java.awt.event.WindowEvent;
  * @author Cat
  */
 public class Resultado extends javax.swing.JFrame {
+    Jogador jogador = new Jogador();
+    int termJogo;
+   
 
     /**
      * Creates new form Rank
      */
-    public Resultado() {
+    public Resultado(Jogador jogador, int termJogo) {
+        this.jogador = jogador;
+        this.termJogo = termJogo;
         initComponents();
+        setLabels();
+    }
+
+    public Resultado() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
      public void close(){
@@ -43,7 +55,7 @@ public class Resultado extends javax.swing.JFrame {
         jButtonNovoJogo = new javax.swing.JButton();
         jButtonSairRank = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -84,13 +96,13 @@ public class Resultado extends javax.swing.JFrame {
                 .addGap(25, 25, 25)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabelMotivo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabelGameOver, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabelGameOver, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 767, Short.MAX_VALUE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(10, 10, 10)
                         .addComponent(jButtonNovoJogo, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(26, 26, 26)
                         .addComponent(jButtonSairRank, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 11, Short.MAX_VALUE)))
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addGap(25, 25, 25))
         );
         jPanel1Layout.setVerticalGroup(
@@ -111,7 +123,7 @@ public class Resultado extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -174,4 +186,19 @@ public class Resultado extends javax.swing.JFrame {
     private javax.swing.JLabel jLabelMotivo;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
+
+    private void setLabels() {
+        
+        if(termJogo == 0){
+            jLabelGameOver.setText("Parabéns Ganhou!!!!");
+            jLabelMotivo.setText("Afundou todos os navios militares com " + jogador.getPontuacao() + " pontos");
+        }
+        if(termJogo == 1){
+            jLabelGameOver.setText("Game Over");
+            jLabelMotivo.setText("Esgotou o número de jogadas.");
+        }else if(termJogo == 2){
+            jLabelGameOver.setText("Game Over");
+            jLabelMotivo.setText("Afundou um navio civil.");
+        }
+    }
 }

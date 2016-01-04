@@ -381,7 +381,7 @@ public class Cenario {
      */
     public void gerarCenario(){
         if(nivel == 1){
-            nJogadas = 350;
+            nJogadas = 400;
         }
         if(nivel == 2){
             nJogadas = 250;

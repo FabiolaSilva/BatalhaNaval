@@ -11,6 +11,7 @@ import java.awt.event.WindowEvent;
 import Model.*;
 import javax.swing.JButton;
 
+
 /**
  *
  * @author Cat
@@ -7842,7 +7843,12 @@ public class Tabuleiro extends javax.swing.JFrame {
                         btn.setBackground(Color.GREEN);
                     }
                 }        
-                cenario.terminarJogo();
+                int termJogo = cenario.terminarJogo();
+                if(termJogo != 3){
+                    close();
+                    Resultado resultado = new Resultado(jogador, termJogo);
+                    resultado.setVisible(true);
+                }
                 jLabelPontos.setText(String.valueOf(jogador.getPontuacao()));
             }
             
