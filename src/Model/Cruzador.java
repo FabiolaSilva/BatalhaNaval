@@ -18,7 +18,7 @@ public class Cruzador extends Navio{
     public Cruzador(String tipo, Boolean militar, ArrayList posicao, int numCoord, Boolean rotacao) {
         super(tipo, militar, posicao, numCoord);
         this.rotacao = rotacao;
-        bonus = 15;
+        bonus = 20;
     }
 
     /**

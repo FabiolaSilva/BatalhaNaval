@@ -36,10 +36,7 @@ public class Pre_Tabuleiro extends javax.swing.JFrame {
     
 
     
- public void close(){
-        WindowEvent winClosingEvent = new WindowEvent(this, WindowEvent. WINDOW_CLOSING);
-        Toolkit.getDefaultToolkit().getSystemEventQueue().postEvent(winClosingEvent);
-    }
+ 
  
     /**
      * This method is called from within the constructor to initialize the form.
@@ -137,7 +134,7 @@ public class Pre_Tabuleiro extends javax.swing.JFrame {
     
     private void jButtonResponderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonResponderActionPerformed
         // TODO add your handling code here:
-        close();
+        dispose();
         Tabuleiro_Resposta r = new Tabuleiro_Resposta(jogador, nivel);
         r.setVisible(true);
         
@@ -147,7 +144,7 @@ public class Pre_Tabuleiro extends javax.swing.JFrame {
         // TODO add your handling code here:
         BemVindo s = new BemVindo();
         s.setVisible(true);
-        close();
+        dispose();
     }//GEN-LAST:event_jButtonSairTabActionPerformed
 
     /**

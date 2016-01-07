@@ -22,10 +22,7 @@ public class BemVindo extends javax.swing.JFrame {
         initComponents();
     }
 
-    public void close(){
-        WindowEvent winClosingEvent = new WindowEvent(this, WindowEvent. WINDOW_CLOSING);
-        Toolkit.getDefaultToolkit().getSystemEventQueue().postEvent(winClosingEvent);
-    }
+    
     
     
     /**
@@ -143,7 +140,7 @@ public class BemVindo extends javax.swing.JFrame {
 
     private void jButtonManualBVMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonManualBVMouseClicked
         // TODO add your handling code here:
-        close();
+        dispose();
         Manual p = new Manual();
         p.setVisible(true);
                 
@@ -158,7 +155,7 @@ public class BemVindo extends javax.swing.JFrame {
         // TODO add your handling code here:
         Dificuldade j = new Dificuldade();
         j.setVisible(true);
-        close();
+        dispose();
     }//GEN-LAST:event_jButtonIniciarBVMouseClicked
 
     /**

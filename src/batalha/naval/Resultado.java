@@ -35,10 +35,7 @@ public class Resultado extends javax.swing.JFrame {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-     public void close(){
-        WindowEvent winClosingEvent = new WindowEvent(this, WindowEvent. WINDOW_CLOSING);
-        Toolkit.getDefaultToolkit().getSystemEventQueue().postEvent(winClosingEvent);
-    }
+     
     
     /**
      * This method is called from within the constructor to initialize the form.
@@ -138,7 +135,7 @@ public class Resultado extends javax.swing.JFrame {
     }//GEN-LAST:event_jButtonSairRankActionPerformed
 
     private void jButtonNovoJogoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonNovoJogoActionPerformed
-        close();
+        dispose();
         BemVindo novojogo = new BemVindo();
         novojogo.setVisible(true);
     }//GEN-LAST:event_jButtonNovoJogoActionPerformed

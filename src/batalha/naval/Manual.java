@@ -169,14 +169,14 @@ public class Manual extends javax.swing.JFrame {
         // TODO add your handling code here:
         BemVindo v = new BemVindo();
         v.setVisible(true);
-        close();
+        dispose();
     }//GEN-LAST:event_jButtonVoltarActionPerformed
 
     private void jButtonJogarManActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonJogarManActionPerformed
         // TODO add your handling code here:
         Dificuldade j = new Dificuldade();
         j.setVisible(true);
-        close();
+        dispose();
     }//GEN-LAST:event_jButtonJogarManActionPerformed
 
     /**
@@ -227,8 +227,5 @@ public class Manual extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 
-    private void close() {
-        WindowEvent winClosingEvent = new WindowEvent(this, WindowEvent. WINDOW_CLOSING);
-        Toolkit.getDefaultToolkit().getSystemEventQueue().postEvent(winClosingEvent);
-    }
+    
 }

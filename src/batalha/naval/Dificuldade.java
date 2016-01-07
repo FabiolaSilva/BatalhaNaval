@@ -28,10 +28,7 @@ public class Dificuldade extends javax.swing.JFrame {
        
     }
 
-     public void close(){
-        WindowEvent winClosingEvent = new WindowEvent(this, WindowEvent. WINDOW_CLOSING);
-        Toolkit.getDefaultToolkit().getSystemEventQueue().postEvent(winClosingEvent);
-    }
+     
      
     /**
      * This method is called from within the constructor to initialize the form.
@@ -158,7 +155,7 @@ public class Dificuldade extends javax.swing.JFrame {
         if(!nome.isEmpty()){     
             jogador.setNome(nome);
         
-            close();
+            dispose();
             Pre_Tabuleiro f = new Pre_Tabuleiro(jogador, 1);
             f.setVisible(true);
         } else{
@@ -177,7 +174,7 @@ public class Dificuldade extends javax.swing.JFrame {
         if(!nome.isEmpty()){     
             jogador.setNome(nome);
         
-            close();
+            dispose();
             Pre_Tabuleiro m = new Pre_Tabuleiro(jogador, 2);
             m.setVisible(true);
         } else{
@@ -196,7 +193,7 @@ public class Dificuldade extends javax.swing.JFrame {
         if(!nome.isEmpty()){     
             jogador.setNome(nome);
         
-            close();
+            dispose();
             Pre_Tabuleiro d = new Pre_Tabuleiro(jogador, 3);
             d.setVisible(true);
         } else{

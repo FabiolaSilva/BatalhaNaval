@@ -42,10 +42,7 @@ public class Tabuleiro extends javax.swing.JFrame {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    public void close(){
-        WindowEvent winClosingEvent = new WindowEvent(this, WindowEvent. WINDOW_CLOSING);
-        Toolkit.getDefaultToolkit().getSystemEventQueue().postEvent(winClosingEvent);
-    }
+    
          
     /**
      * This method is called from within the constructor to initialize the form.
@@ -5780,7 +5777,7 @@ public class Tabuleiro extends javax.swing.JFrame {
         // TODO add your handling code here:
         BemVindo s = new BemVindo();
         s.setVisible(true);
-        close();
+        dispose();
     }//GEN-LAST:event_jButtonSairTabActionPerformed
 
     private void jButton1_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1_1ActionPerformed
@@ -7874,7 +7871,7 @@ public class Tabuleiro extends javax.swing.JFrame {
                 }        
                 int termJogo = cenario.terminarJogo();
                 if(termJogo != 3){
-                    close();
+                    dispose();
                     Resultado resultado = new Resultado(jogador, termJogo);
                     resultado.setVisible(true);
                 }

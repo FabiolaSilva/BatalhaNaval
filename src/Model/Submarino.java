@@ -16,7 +16,7 @@ public class Submarino extends Navio{
    
     public Submarino(String tipo, Boolean militar, ArrayList posicao, int numCoord) {
         super(tipo, militar, posicao, numCoord);
-        bonus = 20;
+        bonus = 30;
     }
 
     /**
