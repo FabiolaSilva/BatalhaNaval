@@ -352,7 +352,7 @@ public class Cenario {
     
     
     /**
-     * Método que compara o tiro dado pelo jogador com as coordenadas dos navios, incrementa o número de tiros dados e penaliza se o tiro acertar num navio civil
+     * Método que compara o tiro dado pelo jogador com as coordenadas dos navios, incrementa o número de tiros dados, penaliza se o tiro acertar num navio civil e dá pontuação se se afundar um navio militar
      * @param x coordenada x
      * @param y coordenada y
      * @return Navio caso o tiro seja certeiro
@@ -365,7 +365,7 @@ public class Cenario {
                         if(x == array[0] && y == array[1]){
                             navioColocado.adicionaPosicoesAtingidas(x, y);
                             penalizacaoCivil(navioColocado); // penaliza por acertar num navio civil
-                            darBonusSeMilitarAfundado(navioColocado);
+                            darBonusSeMilitarAfundado(navioColocado);//dá bónus se acertar num navio militar
                             nTirosDados++;
                             return navioColocado;
                         } 
@@ -402,7 +402,7 @@ public class Cenario {
     }
     
     /**
-     * Método que determina se o jogo termina e a calcula a pontuação final
+     * Método que determina se o jogo termina e calcula a pontuação final
      * @return int em função do motivo do fim do jogo ou da sua continuação
      */
     public int terminarJogo(){
@@ -424,7 +424,7 @@ public class Cenario {
     }
     
     /**
-     * Método que determina se todos os navios militares foram afundados e dá bonús em função do tipo de navio
+     * Método que determina se todos os navios militares foram afundados
      * @return Boolean true = todos os navios militares foram afundados
      */
     public Boolean terminaSeMilAfundados(){
@@ -487,7 +487,7 @@ public class Cenario {
     }
     
     /**
-     * Método que dá bónus ou penalização em função do navio atingido
+     * Método que dá bónus ou penalização em função do tipo de navio atingido
      * @param navioColocado 
      */
     public void darBonus(Navio navioColocado){
@@ -525,14 +525,26 @@ public class Cenario {
         }
     }
 
+    /**
+     * Método que retorna o nivel de dificuldade do jogo
+     * @return int nivel
+     */
     public int getNivel() {
         return nivel;
     }
-
+    
+/**
+ * Método que permite definir o nível de dificuldade do jogo
+ * @param nivel 
+ */
     public void setNivel(int nivel) {
         this.nivel = nivel;
     }
 
+    /**
+     * Método que permite verificar se o navio militar foi afundado e, em função disso, dar bónus
+     * @param navioColocado 
+     */
     private void darBonusSeMilitarAfundado(Navio navioColocado) {
         if(navioColocado.getMilitar()){
             if(navioColocado.getAfundado()){

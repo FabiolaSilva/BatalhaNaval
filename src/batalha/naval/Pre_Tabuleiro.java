@@ -192,6 +192,7 @@ public class Pre_Tabuleiro extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 
+    //Método que permite definir o texto que aparece nas labels
     private void setLabels(int nivel) {
         if(nivel == 1){
             jLabelDif.setText("Fácil");

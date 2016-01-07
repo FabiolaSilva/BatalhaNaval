@@ -184,6 +184,7 @@ public class Resultado extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 
+    //Método que permite definir o texto que aparece nas labels
     private void setLabels() {
         
         if(termJogo == 0){

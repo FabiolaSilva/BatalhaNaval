@@ -47,7 +47,7 @@ public class BemVindo extends javax.swing.JFrame {
         jLabelBV.setFont(new java.awt.Font("Tekton Pro Cond", 1, 46)); // NOI18N
         jLabelBV.setForeground(new java.awt.Color(255, 255, 255));
         jLabelBV.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabelBV.setIcon(new javax.swing.ImageIcon(getClass().getResource("/batalha/naval/bemvindo.jpg"))); // NOI18N
+        jLabelBV.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/bemvindo.jpg"))); // NOI18N
 
         jButtonManualBV.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 18)); // NOI18N
         jButtonManualBV.setText("Manual");

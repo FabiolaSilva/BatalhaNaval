@@ -77,7 +77,7 @@
                   <Component id="jLabelDif" min="-2" pref="19" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
                   <Component id="jButtonResponder" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="371" max="32767" attributes="0"/>
+                  <EmptySpace pref="370" max="32767" attributes="0"/>
                   <Component id="jButtonSairTab" min="-2" pref="34" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="138" max="-2" attributes="0"/>
               </Group>

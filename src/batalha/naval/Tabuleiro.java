@@ -7847,6 +7847,7 @@ public class Tabuleiro extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel9;
     // End of variables declaration//GEN-END:variables
 
+    //Método que permite gerar a funcionalidade de cada botão (verificar tiro, mudar a cor dos botões se acertou num navio e terminar jogo) e atualizar as labels do tabuleiro 
     private void metodoBotao(int x, int y, JButton btn) {
         Color c = new Color(0,153,153);
         Color d = btn.getBackground();
@@ -7882,7 +7883,8 @@ public class Tabuleiro extends javax.swing.JFrame {
         
         
     }
-    
+   
+    //Método que permite definir o texto que aparece nas labels
     private void setLabels(int nivel){
         jLabelNumTiros.setText(String.valueOf(cenario.nJogadasRest()));
         if(nivel == 1){

@@ -90,7 +90,7 @@ public class Tabuleiro_Resposta extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Tekton Pro Cond", 1, 70)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/batalha/naval/cenario_gif/barquinho.gif"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/barquinho.gif"))); // NOI18N
 
         jButtonSairTab.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 18)); // NOI18N
         jButtonSairTab.setText("Sair");
@@ -251,6 +251,7 @@ public class Tabuleiro_Resposta extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 
+    //Método que permite definir o texto que aparece nas labels
     private void setLabels(int nivel) {
         if(nivel == 1){
             jLabelDif.setText("Fácil");
