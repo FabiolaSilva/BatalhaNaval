@@ -4144,7 +4144,7 @@ public class Tabuleiro extends javax.swing.JFrame {
         jLabelNumTiros.setFont(new java.awt.Font("Tekton Pro Cond", 1, 48)); // NOI18N
         jLabelNumTiros.setForeground(new java.awt.Color(255, 255, 255));
         jLabelNumTiros.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabelNumTiros.setText("250");
+        jLabelNumTiros.setText("-");
         jLabelNumTiros.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 153, 153)));
 
         jPanel2.setBackground(java.awt.Color.red);
